@@ -24,21 +24,11 @@ Dim objEdgeBrowser,objBrowsers,objApp,obj_AWCTeamcenterHome,Processes,objBrowser
 Dim iCount,iCounter
 Dim sVersion,sGroup,sRole,sTempValue,Process,targetUrl,sPassword,sUserName,sHeaderText,sTemp,sTempUserNm
 Dim myProcess1,myProcess
-
-
-Dim repoCount, i
-repoCount = RepositoriesCollection.Count
-
-For i = 1 To repoCount
-    Reporter.ReportEvent micPass, "FOUND OBJECT REPOSITORY:", "Repository " & i & ": " & RepositoriesCollection.Item(i)
-Next
-
-
-
 '--------------------------------------------------------------------------------------------------------------------------------
 'Get AWC PLM window object from xml
 '--------------------------------------------------------------------------------------------------------------------------------
-Set obj_AWCTeamcenterHome=Eval(SearchAndLoadResourceByName("ActiveWorkspace_OR.xml").GetValue("wpage_AWCTeamcenterHome"))
+'Set obj_AWCTeamcenterHome=Eval(SearchAndLoadResourceByName("ActiveWorkspace_OR.xml").GetValue("wpage_AWCTeamcenterHome"))
+Set obj_AWCTeamcenterHome=Browser("Browser").Page("wpage_AWCTeamcenterHome")
 Set objWshShell = CreateObject("WScript.shell")
 '--------------------------------------------------------------------------------------------------------------------------------
 'Terminate all sprinter processes 
