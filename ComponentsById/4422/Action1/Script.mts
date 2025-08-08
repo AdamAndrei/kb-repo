@@ -36,8 +36,8 @@ Next
 '--------------------------------------------------------------------------------------------------------------------------------
 'Get AWC PLM window object from xml
 '--------------------------------------------------------------------------------------------------------------------------------
-'Set obj_AWCTeamcenterHome=Eval(SearchAndLoadResourceByName("ActiveWorkspace_OR.xml").GetValue("wpage_AWCTeamcenterHome"))
-Set obj_AWCTeamcenterHome=Browser("Browser").Page("wpage_AWCTeamcenterHome")
+Set obj_AWCTeamcenterHome=Eval(SearchAndLoadResourceByName("ActiveWorkspace_OR.xml").GetValue("wpage_AWCTeamcenterHome"))
+'Set obj_AWCTeamcenterHome=Browser("Browser").Page("wpage_AWCTeamcenterHome")
 Set objWshShell = CreateObject("WScript.shell")
 '--------------------------------------------------------------------------------------------------------------------------------
 'Terminate all sprinter processes 
