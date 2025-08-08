@@ -25,6 +25,8 @@ Dim iCount,iCounter
 Dim sVersion,sGroup,sRole,sTempValue,Process,targetUrl,sPassword,sUserName,sHeaderText,sTemp,sTempUserNm
 Dim myProcess1,myProcess
 
+Reporter.ReportEvent micPass, "Test dir", Environment("TestDir")
+
 Dim repoCount, i
 repoCount = RepositoriesCollection.Count
 
