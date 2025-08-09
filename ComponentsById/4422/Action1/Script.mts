@@ -17,6 +17,18 @@
 
 '******************************************************************************************************************************
 Option Explicit
+
+Dim testPath
+testPath =Environment("TestDir")
+Reporter.ReportEvent micPass, "Test directory", testPath
+
+
+Dim repoCount, i
+repoCount = RepositoriesCollection.Count
+
+For i = 1 To repoCount
+    Reporter.ReportEvent micPass, "FOUND OBJECT REPOSITORY:", "Repository " & i & ": " & RepositoriesCollection.Item(i)
+Next
 '-------------------------------------------------------------------------------------------------------------------------------
 'Variable Declaration
 '-------------------------------------------------------------------------------------------------------------------------------
