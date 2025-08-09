@@ -1,0 +1,1 @@
+﻿var __testDataSource={items:[{dataFilePath:'Default.xlsx',dataFileFormat:'excel',dataFileFolder:'C:\\dev\\alm-to-octane-migration-tool\\bpt-export\\DEFAULT_KNORRBREMSE_VALUEEDGE_KB_Functional_Testing_Design\\ComponentsById\\4422\\Res1',namePairs:[]}]};
