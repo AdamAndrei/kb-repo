@@ -159,7 +159,9 @@ End Select
 'Invoke the Active Workspace (AWC) application 
 '--------------------------------------------------------------------------------------------------------------------------------
 'systemutil.Run "msedge.exe",targetUrl
+Reporter.ReportEvent micPass, "Launch youtube", "hope it works"
 InvokeApplication "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe "& "https://www.youtube.com"
-
+Reporter.ReportEvent micPass, "Launched youtube", "hope it works"
+Wait 5
 Set obj_AWCTeamcenterHome=Nothing
 Set objWshShell=Nothing
