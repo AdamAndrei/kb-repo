@@ -12,7 +12,6 @@ For i = 1 To repoCount
     Reporter.ReportEvent micPass, "FOUND OBJECT REPOSITORY:", "Repository " & i & ": " & RepositoriesCollection.Item(i)
 Next
 
-
 iURL = "https://advantageonlinebanking.com/dashboard"
 Set objShell = CreateObject("Shell.Application")
 Set fileSystemObj = CreateObject("Scripting.FileSystemObject")
