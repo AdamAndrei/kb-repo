@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutDefinition objectID="0">
+  <IsDefault>False</IsDefault>
+  <ID>a1499015-4c1d-4e21-8a32-a7ee6faf97b9</ID>
+  <Name>it12 adft-w</Name>
+  <Description isNull="True" />
+  <AddinsDefinition objectID="1">
+    <FireEventsAsync>True</FireEventsAsync>
+    <Elements isCollection="True">
+      <String>Web</String>
+    </Elements>
+  </AddinsDefinition>
+  <ExecutionType>Web</ExecutionType>
+  <StationsAutDefinition objectID="2">
+    <Elements isCollection="True">
+      <StationAutDefinition objectID="3">
+        <ExecutionDefinition objectID="4" type="HP.MirrorTesting.Common.WebExecutionDefinition, HP.Sprinter.Common">
+          <Browser>IEXPLORE</Browser>
+          <URL>http://adft-w</URL>
+        </ExecutionDefinition>
+        <RunMode>CreateNew</RunMode>
+        <CloseAutAtRunEnd>False</CloseAutAtRunEnd>
+      </StationAutDefinition>
+    </Elements>
+  </StationsAutDefinition>
+</AutDefinition>

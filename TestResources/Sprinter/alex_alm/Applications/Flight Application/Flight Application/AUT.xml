@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutDefinition objectID="0">
+  <IsDefault>False</IsDefault>
+  <ID>0cb71ecf-743d-4f6d-ae6b-51707fbc08a3</ID>
+  <Name>Flight Application</Name>
+  <Description isNull="True" />
+  <AddinsDefinition objectID="1">
+    <FireEventsAsync>True</FireEventsAsync>
+    <Elements isCollection="True">
+      <String>Web</String>
+    </Elements>
+  </AddinsDefinition>
+  <ExecutionType>Web</ExecutionType>
+  <StationsAutDefinition objectID="2">
+    <Elements isCollection="True">
+      <StationAutDefinition objectID="3">
+        <ExecutionDefinition objectID="4" type="HP.MirrorTesting.Common.WebExecutionDefinition, HP.Sprinter.Common">
+          <Browser>IEXPLORE</Browser>
+          <URL>http://newtours.demoaut.com</URL>
+        </ExecutionDefinition>
+        <RunMode>CreateNew</RunMode>
+        <CloseAutAtRunEnd>False</CloseAutAtRunEnd>
+      </StationAutDefinition>
+    </Elements>
+  </StationsAutDefinition>
+</AutDefinition>

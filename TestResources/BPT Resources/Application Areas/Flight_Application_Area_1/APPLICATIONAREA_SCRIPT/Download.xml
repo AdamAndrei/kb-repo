@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Owners>
+  <OwnerId>2001030</OwnerId>
+  <OwnerType>COMPONENT</OwnerType>
+  <Name><![CDATA[Resources:BPT Resources:Application Areas:Flight_Application_Area_1]]></Name>
+  <FSPath><![CDATA[resources\1030\APPLICATIONAREA_SCRIPT]]></FSPath>
+  <QCPath><![CDATA[Templates\Resources:BPT Resources:Application Areas:Flight_Application_Area_1]]></QCPath>
+  <FileName>
+  </FileName>
+  <SubType>Application Area</SubType>
+  <Owner>
+    <OwnerId>1003</OwnerId>
+    <OwnerType>USER_ASSETS</OwnerType>
+    <Name><![CDATA[Action1]]></Name>
+    <FSPath><![CDATA[resources\1030\APPLICATIONAREA_SCRIPT]]></FSPath>
+    <QCPath><![CDATA[Templates\Resources:BPT Resources:Application Areas:Flight_Application_Area_1]]></QCPath>
+    <Relation>
+      <RelatedId>1002</RelatedId>
+      <RelatedType>USER_ASSETS</RelatedType>
+      <Name><![CDATA[TEST_Data]]></Name>
+      <FSPath><![CDATA[resources\1030\APPLICATIONAREA_SCRIPT]]></FSPath>
+      <QCPath><![CDATA[Templates\Resources:BPT Resources:Application Areas:Flight_Application_Area_1]]></QCPath>
+      <Condition>NONE</Condition>
+      <Order>30</Order>
+    </Relation>
+  </Owner>
+  <Owner>
+    <OwnerId>2001030</OwnerId>
+    <OwnerType>COMPONENT</OwnerType>
+    <Name><![CDATA[Resources:BPT Resources:Application Areas:Flight_Application_Area_1]]></Name>
+    <FSPath><![CDATA[resources\1030\APPLICATIONAREA_SCRIPT]]></FSPath>
+    <QCPath><![CDATA[Templates\Resources:BPT Resources:Application Areas:Flight_Application_Area_1]]></QCPath>
+    <FileName>
+    </FileName>
+    <SubType>Application Area</SubType>
+    <Relation>
+      <RelatedId>1002</RelatedId>
+      <RelatedType>RESOURCES</RelatedType>
+      <Name><![CDATA[Flight_utils.qfl]]></Name>
+      <FSPath><![CDATA[resources\1002]]></FSPath>
+      <QCPath><![CDATA[Resources\BPT Resources\Libraries\Flight_utils.qfl]]></QCPath>
+      <Condition>NONE</Condition>
+      <Order>37</Order>
+      <FileName>Flight_utils.qfl</FileName>
+      <SubType>Function library</SubType>
+    </Relation>
+    <Relation>
+      <RelatedId>1022</RelatedId>
+      <RelatedType>RESOURCES</RelatedType>
+      <Name><![CDATA[WinFlight.tsr]]></Name>
+      <FSPath><![CDATA[resources\1022]]></FSPath>
+      <QCPath><![CDATA[Resources\BPT Resources\Object Repositories\WinFlight.tsr]]></QCPath>
+      <Condition>NONE</Condition>
+      <Order>31</Order>
+      <FileName>WinFlight.tsr</FileName>
+      <SubType>Shared object repository</SubType>
+    </Relation>
+    <Relation>
+      <RelatedId>1017</RelatedId>
+      <RelatedType>RESOURCES</RelatedType>
+      <Name><![CDATA[Visual_Basic.txt]]></Name>
+      <FSPath><![CDATA[resources\1017]]></FSPath>
+      <QCPath><![CDATA[Resources\BPT Resources\Libraries\Visual_Basic.txt]]></QCPath>
+      <Condition>NONE</Condition>
+      <Order>35</Order>
+      <FileName>Visual_Basic.txt</FileName>
+      <SubType>Function library</SubType>
+    </Relation>
+    <Relation>
+      <RelatedId>1009</RelatedId>
+      <RelatedType>RESOURCES</RelatedType>
+      <Name><![CDATA[ActiveX.txt]]></Name>
+      <FSPath><![CDATA[resources\1009]]></FSPath>
+      <QCPath><![CDATA[Resources\BPT Resources\Libraries\ActiveX.txt]]></QCPath>
+      <Condition>NONE</Condition>
+      <Order>34</Order>
+      <FileName>ActiveX.txt</FileName>
+      <SubType>Function library</SubType>
+    </Relation>
+    <Relation>
+      <RelatedId>1002</RelatedId>
+      <RelatedType>USER_ASSETS</RelatedType>
+      <Name><![CDATA[TEST_Data]]></Name>
+      <FSPath><![CDATA[resources\1030\APPLICATIONAREA_SCRIPT]]></FSPath>
+      <QCPath><![CDATA[Templates\Resources:BPT Resources:Application Areas:Flight_Application_Area_1]]></QCPath>
+    </Relation>
+    <Relation>
+      <RelatedId>1003</RelatedId>
+      <RelatedType>USER_ASSETS</RelatedType>
+      <Name><![CDATA[Action1]]></Name>
+      <FSPath><![CDATA[resources\1030\APPLICATIONAREA_SCRIPT]]></FSPath>
+      <QCPath><![CDATA[Templates\Resources:BPT Resources:Application Areas:Flight_Application_Area_1]]></QCPath>
+    </Relation>
+    <Relation>
+      <RelatedId>1001</RelatedId>
+      <RelatedType>USER_ASSETS</RelatedType>
+      <Name><![CDATA[Main Test Flow]]></Name>
+      <FSPath><![CDATA[resources\1030\APPLICATIONAREA_SCRIPT]]></FSPath>
+      <QCPath><![CDATA[Templates\Resources:BPT Resources:Application Areas:Flight_Application_Area_1]]></QCPath>
+    </Relation>
+    <Relation>
+      <RelatedId>1025</RelatedId>
+      <RelatedType>RESOURCES</RelatedType>
+      <Name><![CDATA[Common.txt]]></Name>
+      <FSPath><![CDATA[resources\1025]]></FSPath>
+      <QCPath><![CDATA[Resources\BPT Resources\Libraries\Common.txt]]></QCPath>
+      <Condition>NONE</Condition>
+      <Order>33</Order>
+      <FileName>Common.txt</FileName>
+      <SubType>Function library</SubType>
+    </Relation>
+    <Relation>
+      <RelatedId>1018</RelatedId>
+      <RelatedType>RESOURCES</RelatedType>
+      <Name><![CDATA[Web.txt]]></Name>
+      <FSPath><![CDATA[resources\1018]]></FSPath>
+      <QCPath><![CDATA[Resources\BPT Resources\Libraries\Web.txt]]></QCPath>
+      <Condition>NONE</Condition>
+      <Order>36</Order>
+      <FileName>Web.txt</FileName>
+      <SubType>Function library</SubType>
+    </Relation>
+    <Relation>
+      <RelatedId>1023</RelatedId>
+      <RelatedType>RESOURCES</RelatedType>
+      <Name><![CDATA[WinFlight_Report.tsr]]></Name>
+      <FSPath><![CDATA[resources\1023]]></FSPath>
+      <QCPath><![CDATA[Resources\BPT Resources\Object Repositories\WinFlight_Report.tsr]]></QCPath>
+      <Condition>NONE</Condition>
+      <Order>32</Order>
+      <FileName>WinFlight_Report.tsr</FileName>
+      <SubType>Shared object repository</SubType>
+    </Relation>
+  </Owner>
+</Owners>

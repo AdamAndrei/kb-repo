@@ -1,0 +1,12 @@
+Function Get_URL()
+Dim WshShell, bKey, MyArray, ServName, URL, Site_URL_Array(2)
+Set WshShell = CreateObject("WScript.Shell")
+bKey = WshShell.RegRead("HKEY_CURRENT_USER\SOFTWARE\Mercury Interactive\TestDirector\WEB\LastConnection")
+MyArray = Split(bKey, "/", -1, vbTextCompare)
+ServName = MyArray(2)
+Site_URL_Array(0) = "http://"
+Site_URL_Array(1) = ServName
+Site_URL_Array(2) = "/mtours/servlet/com.mercurytours.servlet.WelcomeServlet"
+URL = Join(Site_URL_Array, "")
+Get_URL = URL
+End Function

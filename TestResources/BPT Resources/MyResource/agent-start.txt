@@ -1,0 +1,1 @@
+"C:\Program Files\Eclipse Adoptium\jdk-21.0.7.6-hotspot\bin\java.exe" -jar "C:\Users\Administrator\Downloads\agent.jar" -url http://mada-elsearch.octane.admlabs.aws.swinfra.net:8082/ -secret 2eca69226aae53f81ea3c4aea8cb3a7ed893575656a31ba70e71c8ee3cbb5513 -name AdamN -webSocket -workDir "C:\AdamN"

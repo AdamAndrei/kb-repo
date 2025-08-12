@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StationsDefinitionContainer objectID="0">
+  <Collection objectID="1">
+    <Elements isCollection="True">
+      <StationDefinition objectID="2">
+        <MachineDefinition objectID="3">
+          <Location objectID="4" type="HP.MirrorTesting.BL.Data.TestDefinitionData.RunDefinition.Host.LocationDefinition, HP.Sprinter.BL.Data">
+            <HostNameOrAddress>localhost</HostNameOrAddress>
+            <HostName>localhost</HostName>
+            <Address isNull="True" />
+          </Location>
+          <Credentials objectID="5" type="HP.MirrorTesting.BL.Data.TestDefinitionData.RunDefinition.Host.CredentialsDefinition, HP.Sprinter.BL.Data">
+            <EncryptedPassword isNull="True" />
+            <Username isNull="True" />
+            <FullUsername isNull="True" />
+            <UserDomain isNull="True" />
+          </Credentials>
+          <CredentialsInfo objectID="6">
+            <Source>CurrUser</Source>
+          </CredentialsInfo>
+        </MachineDefinition>
+        <AgentDefinition objectID="7">
+          <Name>Primary</Name>
+          <Description>Primary Machine</Description>
+          <ImageSource>Host</ImageSource>
+          <Protocol>Pipe</Protocol>
+          <StationType>Recorder</StationType>
+        </AgentDefinition>
+        <StationAutDefinitionPointer objectID="8">
+          <PointedID>0</PointedID>
+          <PointerType>StationAut</PointerType>
+        </StationAutDefinitionPointer>
+        <IsExcluded>False</IsExcluded>
+        <LastModificationTime isNull="True" />
+      </StationDefinition>
+      <StationDefinition objectID="9">
+        <MachineDefinition objectID="10">
+          <Location objectID="11" type="HP.MirrorTesting.BL.Data.TestDefinitionData.RunDefinition.Host.LocationDefinition, HP.Sprinter.BL.Data">
+            <HostNameOrAddress>123.123.123.123</HostNameOrAddress>
+            <HostName isNull="True" />
+            <Address>123.123.123.123</Address>
+          </Location>
+          <Credentials objectID="12" type="HP.MirrorTesting.BL.Data.TestDefinitionData.RunDefinition.Host.CredentialsDefinition, HP.Sprinter.BL.Data">
+            <EncryptedPassword></EncryptedPassword>
+            <Username></Username>
+            <FullUsername></FullUsername>
+            <UserDomain></UserDomain>
+          </Credentials>
+          <CredentialsInfo objectID="13">
+            <Source>CurrUser</Source>
+          </CredentialsInfo>
+        </MachineDefinition>
+        <AgentDefinition objectID="14">
+          <Name>asd asd as</Name>
+          <Description isNull="True" />
+          <ImageSource>Host</ImageSource>
+          <Protocol>Tcp</Protocol>
+          <StationType>Player</StationType>
+        </AgentDefinition>
+        <StationAutDefinitionPointer objectID="15">
+          <PointedID>-1</PointedID>
+          <PointerType>StationAut</PointerType>
+        </StationAutDefinitionPointer>
+        <IsExcluded>True</IsExcluded>
+        <LastModificationTime>2012-05-10T16:26:11</LastModificationTime>
+      </StationDefinition>
+      <StationDefinition objectID="16">
+        <MachineDefinition objectID="17">
+          <Location objectID="18" type="HP.MirrorTesting.BL.Data.TestDefinitionData.RunDefinition.Host.LocationDefinition, HP.Sprinter.BL.Data">
+            <HostNameOrAddress>123.123.123.123</HostNameOrAddress>
+            <HostName isNull="True" />
+            <Address>123.123.123.123</Address>
+          </Location>
+          <Credentials objectID="19" type="HP.MirrorTesting.BL.Data.TestDefinitionData.RunDefinition.Host.CredentialsDefinition, HP.Sprinter.BL.Data">
+            <EncryptedPassword></EncryptedPassword>
+            <Username></Username>
+            <FullUsername></FullUsername>
+            <UserDomain></UserDomain>
+          </Credentials>
+          <CredentialsInfo objectID="20">
+            <Source>CurrUser</Source>
+          </CredentialsInfo>
+        </MachineDefinition>
+        <AgentDefinition objectID="21">
+          <Name>New Machine</Name>
+          <Description isNull="True" />
+          <ImageSource>Host</ImageSource>
+          <Protocol>Tcp</Protocol>
+          <StationType>Player</StationType>
+        </AgentDefinition>
+        <StationAutDefinitionPointer objectID="22">
+          <PointedID>-1</PointedID>
+          <PointerType>StationAut</PointerType>
+        </StationAutDefinitionPointer>
+        <IsExcluded>True</IsExcluded>
+        <LastModificationTime>2012-05-10T16:38:32</LastModificationTime>
+      </StationDefinition>
+      <StationDefinition objectID="23">
+        <MachineDefinition objectID="24">
+          <Location objectID="25" type="HP.MirrorTesting.BL.Data.TestDefinitionData.RunDefinition.Host.LocationDefinition, HP.Sprinter.BL.Data">
+            <HostNameOrAddress>123.123.123.124</HostNameOrAddress>
+            <HostName isNull="True" />
+            <Address>123.123.123.124</Address>
+          </Location>
+          <Credentials objectID="26" type="HP.MirrorTesting.BL.Data.TestDefinitionData.RunDefinition.Host.CredentialsDefinition, HP.Sprinter.BL.Data">
+            <EncryptedPassword></EncryptedPassword>
+            <Username></Username>
+            <FullUsername></FullUsername>
+            <UserDomain></UserDomain>
+          </Credentials>
+          <CredentialsInfo objectID="27">
+            <Source>CurrUser</Source>
+          </CredentialsInfo>
+        </MachineDefinition>
+        <AgentDefinition objectID="28">
+          <Name>33123123</Name>
+          <Description isNull="True" />
+          <ImageSource>Host</ImageSource>
+          <Protocol>Tcp</Protocol>
+          <StationType>Player</StationType>
+        </AgentDefinition>
+        <StationAutDefinitionPointer objectID="29">
+          <PointedID>-1</PointedID>
+          <PointerType>StationAut</PointerType>
+        </StationAutDefinitionPointer>
+        <IsExcluded>True</IsExcluded>
+        <LastModificationTime>2012-05-10T16:47:45</LastModificationTime>
+      </StationDefinition>
+      <StationDefinition objectID="30">
+        <MachineDefinition objectID="31">
+          <Location objectID="32" type="HP.MirrorTesting.BL.Data.TestDefinitionData.RunDefinition.Host.LocationDefinition, HP.Sprinter.BL.Data">
+            <HostNameOrAddress>234.234.234.234</HostNameOrAddress>
+            <HostName isNull="True" />
+            <Address>234.234.234.234</Address>
+          </Location>
+          <Credentials objectID="33" type="HP.MirrorTesting.BL.Data.TestDefinitionData.RunDefinition.Host.CredentialsDefinition, HP.Sprinter.BL.Data">
+            <EncryptedPassword></EncryptedPassword>
+            <Username></Username>
+            <FullUsername></FullUsername>
+            <UserDomain></UserDomain>
+          </Credentials>
+          <CredentialsInfo objectID="34">
+            <Source>CurrUser</Source>
+          </CredentialsInfo>
+        </MachineDefinition>
+        <AgentDefinition objectID="35">
+          <Name>2222</Name>
+          <Description isNull="True" />
+          <ImageSource>Host</ImageSource>
+          <Protocol>Tcp</Protocol>
+          <StationType>Player</StationType>
+        </AgentDefinition>
+        <StationAutDefinitionPointer objectID="36">
+          <PointedID>-1</PointedID>
+          <PointerType>StationAut</PointerType>
+        </StationAutDefinitionPointer>
+        <IsExcluded>True</IsExcluded>
+        <LastModificationTime>2012-05-10T17:03:11</LastModificationTime>
+      </StationDefinition>
+      <StationDefinition objectID="37">
+        <MachineDefinition objectID="38">
+          <Location objectID="39" type="HP.MirrorTesting.BL.Data.TestDefinitionData.RunDefinition.Host.LocationDefinition, HP.Sprinter.BL.Data">
+            <HostNameOrAddress>123.123.123.123</HostNameOrAddress>
+            <HostName isNull="True" />
+            <Address>123.123.123.123</Address>
+          </Location>
+          <Credentials objectID="40" type="HP.MirrorTesting.BL.Data.TestDefinitionData.RunDefinition.Host.CredentialsDefinition, HP.Sprinter.BL.Data">
+            <EncryptedPassword></EncryptedPassword>
+            <Username></Username>
+            <FullUsername></FullUsername>
+            <UserDomain></UserDomain>
+          </Credentials>
+          <CredentialsInfo objectID="41">
+            <Source>CurrUser</Source>
+          </CredentialsInfo>
+        </MachineDefinition>
+        <AgentDefinition objectID="42">
+          <Name>New Machine43534534</Name>
+          <Description isNull="True" />
+          <ImageSource>Host</ImageSource>
+          <Protocol>Tcp</Protocol>
+          <StationType>Player</StationType>
+        </AgentDefinition>
+        <StationAutDefinitionPointer objectID="43">
+          <PointedID>-1</PointedID>
+          <PointerType>StationAut</PointerType>
+        </StationAutDefinitionPointer>
+        <IsExcluded>True</IsExcluded>
+        <LastModificationTime>2012-05-10T17:14:47</LastModificationTime>
+      </StationDefinition>
+    </Elements>
+  </Collection>
+</StationsDefinitionContainer>

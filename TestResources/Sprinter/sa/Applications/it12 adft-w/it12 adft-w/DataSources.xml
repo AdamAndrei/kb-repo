@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataSourceDefinitionCollection objectID="0">
+  <FireEventsAsync>True</FireEventsAsync>
+  <Elements isCollection="True">
+    <DataSourceDefinition objectID="1">
+      <Name>data field_2</Name>
+      <IsFromQC>False</IsFromQC>
+      <QCResourceID>0</QCResourceID>
+      <LogicalLocation></LogicalLocation>
+      <Location>\\fs\AD_FT\Temp\Tolik\data field_2.xlsx</Location>
+      <FileLastWriteTime>2011-10-07T17:31:33</FileLastWriteTime>
+      <HeadersCollection objectID="2">
+        <Elements isCollection="True">
+          <HeaderInfo objectID="3">
+            <Name>:TOName:First Name</Name>
+            <Order>1</Order>
+            <Enable>True</Enable>
+          </HeaderInfo>
+          <HeaderInfo objectID="4">
+            <Name>:TOName:Last Name:</Name>
+            <Order>2</Order>
+            <Enable>True</Enable>
+          </HeaderInfo>
+          <HeaderInfo objectID="5">
+            <Name>:TOName:Phone</Name>
+            <Order>3</Order>
+            <Enable>True</Enable>
+          </HeaderInfo>
+          <HeaderInfo objectID="6">
+            <Name>:TOName:Email</Name>
+            <Order>4</Order>
+            <Enable>True</Enable>
+          </HeaderInfo>
+          <HeaderInfo objectID="7">
+            <Name>:TOName:City:</Name>
+            <Order>5</Order>
+            <Enable>True</Enable>
+          </HeaderInfo>
+          <HeaderInfo objectID="8">
+            <Name>:TOName:State/Province</Name>
+            <Order>6</Order>
+            <Enable>True</Enable>
+          </HeaderInfo>
+          <HeaderInfo objectID="9">
+            <Name>Postal Code:</Name>
+            <Order>7</Order>
+            <Enable>True</Enable>
+          </HeaderInfo>
+          <HeaderInfo objectID="10">
+            <Name>Country</Name>
+            <Order>8</Order>
+            <Enable>True</Enable>
+          </HeaderInfo>
+          <HeaderInfo objectID="11">
+            <Name>User Name:</Name>
+            <Order>9</Order>
+            <Enable>True</Enable>
+          </HeaderInfo>
+          <HeaderInfo objectID="12">
+            <Name>Password:</Name>
+            <Order>10</Order>
+            <Enable>True</Enable>
+          </HeaderInfo>
+          <HeaderInfo objectID="13">
+            <Name>Confirm Password:</Name>
+            <Order>11</Order>
+            <Enable>True</Enable>
+          </HeaderInfo>
+          <HeaderInfo objectID="14">
+            <Name>Service Class:</Name>
+            <Order>12</Order>
+            <Enable>True</Enable>
+          </HeaderInfo>
+          <HeaderInfo objectID="15">
+            <Name>Address:</Name>
+            <Order>13</Order>
+            <Enable>True</Enable>
+          </HeaderInfo>
+        </Elements>
+      </HeadersCollection>
+    </DataSourceDefinition>
+    <DataSourceDefinition objectID="16">
+      <Name>vitaly</Name>
+      <IsFromQC>False</IsFromQC>
+      <QCResourceID>0</QCResourceID>
+      <LogicalLocation></LogicalLocation>
+      <Location>\\fs\AD_FT\Temp\Tolik\vitaly.xls</Location>
+      <FileLastWriteTime>2012-03-29T10:34:47</FileLastWriteTime>
+      <HeadersCollection objectID="17">
+        <Elements isCollection="True">
+          <HeaderInfo objectID="18">
+            <Name>Name</Name>
+            <Order>1</Order>
+            <Enable>True</Enable>
+          </HeaderInfo>
+          <HeaderInfo objectID="19">
+            <Name>Description</Name>
+            <Order>2</Order>
+            <Enable>True</Enable>
+          </HeaderInfo>
+          <HeaderInfo objectID="20">
+            <Name>Expected result</Name>
+            <Order>3</Order>
+            <Enable>True</Enable>
+          </HeaderInfo>
+          <HeaderInfo objectID="21">
+            <Name>date</Name>
+            <Order>4</Order>
+            <Enable>True</Enable>
+          </HeaderInfo>
+          <HeaderInfo objectID="22">
+            <Name>float</Name>
+            <Order>5</Order>
+            <Enable>True</Enable>
+          </HeaderInfo>
+          <HeaderInfo objectID="23">
+            <Name>memo</Name>
+            <Order>6</Order>
+            <Enable>True</Enable>
+          </HeaderInfo>
+        </Elements>
+      </HeadersCollection>
+    </DataSourceDefinition>
+    <DataSourceDefinition objectID="24">
+      <Name>file_with_steps</Name>
+      <IsFromQC>False</IsFromQC>
+      <QCResourceID>0</QCResourceID>
+      <LogicalLocation></LogicalLocation>
+      <Location>\\fs\AD_FT\Temp\Tolik\file_with_steps.xls</Location>
+      <FileLastWriteTime>2011-12-22T13:26:51</FileLastWriteTime>
+      <HeadersCollection objectID="25">
+        <Elements isCollection="True">
+          <HeaderInfo objectID="26">
+            <Name>Enter a Number (format: 9,999,999,99):</Name>
+            <Order>1</Order>
+            <Enable>True</Enable>
+          </HeaderInfo>
+        </Elements>
+      </HeadersCollection>
+    </DataSourceDefinition>
+  </Elements>
+</DataSourceDefinitionCollection>

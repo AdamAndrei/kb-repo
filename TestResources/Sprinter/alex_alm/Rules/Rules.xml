@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RulesContainer objectID="0">
+  <PropertyRules objectID="1">
+    <RulesDictionary objectID="2">
+      <Elements isCollection="True">
+        <KeyValuePair>
+          <Key>background</Key>
+          <Value objectID="3">
+            <Elements isCollection="True">
+              <PropertyMismatchRule objectID="4" type="HP.MirrorTesting.BL.API.Modules.Rules.PropertyMismatchRule, HP.Sprinter.BL.API">
+                <Objective objectID="5">
+                  <IsGeneric>True</IsGeneric>
+                  <Name>**</Name>
+                  <ClassType>**</ClassType>
+                  <Properties objectID="6">
+                    <Elements isCollection="True" />
+                  </Properties>
+                  <Children objectID="7">
+                    <FireEventsAsync>False</FireEventsAsync>
+                    <Elements isCollection="True">
+                      <TestObjectExpression objectID="8">
+                        <IsGeneric>True</IsGeneric>
+                        <Name>*</Name>
+                        <ClassType>*</ClassType>
+                        <Properties objectID="9">
+                          <Elements isCollection="True">
+                            <KeyValuePair>
+                              <Key>background</Key>
+                              <Value>{0} != {1}</Value>
+                            </KeyValuePair>
+                          </Elements>
+                        </Properties>
+                        <Children objectID="10">
+                          <FireEventsAsync>False</FireEventsAsync>
+                          <Elements isCollection="True">
+                            <TestObjectExpression objectID="11">
+                              <IsGeneric>True</IsGeneric>
+                              <Name>**</Name>
+                              <ClassType>**</ClassType>
+                              <Properties objectID="12">
+                                <Elements isCollection="True" />
+                              </Properties>
+                              <Children objectID="13">
+                                <FireEventsAsync>False</FireEventsAsync>
+                                <Elements isCollection="True" />
+                              </Children>
+                              <Parent cyclicReferenceObjectID="8" />
+                            </TestObjectExpression>
+                          </Elements>
+                        </Children>
+                        <Parent cyclicReferenceObjectID="5" />
+                      </TestObjectExpression>
+                    </Elements>
+                  </Children>
+                  <Parent isNull="True" />
+                </Objective>
+                <Properties objectID="14">
+                  <Elements isCollection="True">
+                    <String>background</String>
+                  </Elements>
+                </Properties>
+                <RuleID>0163f1e9-31ed-43ff-abe2-fade5bd3770e</RuleID>
+                <Enabled>True</Enabled>
+                <Scope>Global</Scope>
+                <IsGeneric>True</IsGeneric>
+                <Name>Ignore background color</Name>
+                <Description>Ignore any difference between the background color of the objects in the application.</Description>
+                <LastUpdated>2010-08-15T15:53:50</LastUpdated>
+                <EnvironmentCondition objectID="15">
+                  <Expression objectID="16">
+                    <IsGeneric>False</IsGeneric>
+                    <Name>**</Name>
+                    <ClassType>**</ClassType>
+                    <Properties objectID="17">
+                      <Elements isCollection="True" />
+                    </Properties>
+                    <Children objectID="18">
+                      <FireEventsAsync>False</FireEventsAsync>
+                      <Elements isCollection="True" />
+                    </Children>
+                    <Parent isNull="True" />
+                  </Expression>
+                </EnvironmentCondition>
+                <IsPreDefined>False</IsPreDefined>
+                <UIAdditionalData objectID="19" type="HP.MirrorTesting.UI.MirrorTester.Views.RuleWizard.DataContainers.PropertyRule, Sprinter">
+                  <TargetProperties objectID="20">
+                    <Elements isCollection="True">
+                      <String>background</String>
+                    </Elements>
+                  </TargetProperties>
+                  <ID>00000000-0000-0000-0000-000000000000</ID>
+                  <Name>Ignore background color</Name>
+                  <Description>Ignore any difference between the background color of the objects in the application.</Description>
+                  <Scope>Global</Scope>
+                  <IsEnabled>True</IsEnabled>
+                  <IsGeneric>True</IsGeneric>
+                  <RuleTarget>Any</RuleTarget>
+                  <TestObject isNull="True" />
+                  <TargetObjectsType isNull="True" />
+                  <TestObjectPropertiesInUse objectID="21">
+                    <Elements isCollection="True">
+                      <ObjectPropertyData objectID="22" type="HP.MirrorTesting.UI.MirrorTester.Views.RuleWizard.ObjectPropertyData, Sprinter">
+                        <DisplayName>background color</DisplayName>
+                        <Property>background</Property>
+                        <PropertyConditionsData objectID="23">
+                          <FireEventsAsync>True</FireEventsAsync>
+                          <Elements isCollection="True">
+                            <KeyValuePair>
+                              <Key>CurrentValues</Key>
+                              <Value objectID="24" type="HP.MirrorTesting.UI.MirrorTester.Views.RuleWizard.PropertyConditionsData.CurrentValuesPropertyConditionData, Sprinter">
+                                <Args objectID="25">
+                                  <Elements isCollection="True">
+                                    <Object isNull="True" />
+                                    <Object isNull="True" />
+                                  </Elements>
+                                </Args>
+                                <PropertyName>background</PropertyName>
+                                <PropertyDisplayName>background color</PropertyDisplayName>
+                                <ControlType>default</ControlType>
+                              </Value>
+                            </KeyValuePair>
+                            <KeyValuePair>
+                              <Key>Equality</Key>
+                              <Value objectID="26" type="HP.MirrorTesting.UI.MirrorTester.Views.RuleWizard.PropertyConditionsData.EqualityPropertyConditionData, Sprinter">
+                                <Args objectID="27">
+                                  <Elements isCollection="True" />
+                                </Args>
+                                <PropertyName>background</PropertyName>
+                                <PropertyDisplayName>background color</PropertyDisplayName>
+                                <ControlType>default</ControlType>
+                              </Value>
+                            </KeyValuePair>
+                            <KeyValuePair>
+                              <Key>DisEquality</Key>
+                              <Value objectID="28" type="HP.MirrorTesting.UI.MirrorTester.Views.RuleWizard.PropertyConditionsData.DisEqualityPropertyConditionData, Sprinter">
+                                <PropertyDisplayName>background color</PropertyDisplayName>
+                                <Args objectID="29">
+                                  <Elements isCollection="True" />
+                                </Args>
+                                <PropertyName>background</PropertyName>
+                                <ControlType>default</ControlType>
+                              </Value>
+                            </KeyValuePair>
+                          </Elements>
+                        </PropertyConditionsData>
+                        <SelectedPropertyConditionData cyclicReferenceObjectID="28" />
+                        <ValueInMaster isNull="True" />
+                        <ValueInSlave isNull="True" />
+                        <PropertyType>HP.MirrorTesting.BL.Data.PropertyType, HP.Sprinter.BL.Data, Version=11.50.0.0, Culture=neutral, PublicKeyToken=null</PropertyType>
+                        <ControlType>default</ControlType>
+                      </ObjectPropertyData>
+                    </Elements>
+                  </TestObjectPropertiesInUse>
+                </UIAdditionalData>
+              </PropertyMismatchRule>
+            </Elements>
+          </Value>
+        </KeyValuePair>
+      </Elements>
+    </RulesDictionary>
+    <Elements isCollection="True">
+      <PropertyMismatchRule cyclicReferenceObjectID="4" />
+    </Elements>
+  </PropertyRules>
+  <CutRules objectID="30">
+    <Elements isCollection="True" />
+  </CutRules>
+</RulesContainer>

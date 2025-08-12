@@ -1,0 +1,1440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MacrosDefinition objectID="0">
+  <Elements isCollection="True">
+    <MacroDefinition objectID="1">
+      <ProgOrUrl isNull="True" />
+      <ExecutionType>Web</ExecutionType>
+      <Name>Login</Name>
+      <Description>This is a macro for the login process</Description>
+      <ApplicationName>Flight Application</ApplicationName>
+      <LastUpdated>2010-08-15T09:57:17</LastUpdated>
+      <Steps objectID="2">
+        <Elements isCollection="True">
+          <Step objectID="3" type="HP.MirrorTesting.Common.Step, HP.Sprinter.Common">
+            <StepTestObject objectID="4" type="HP.MirrorTesting.Common.TestObject.TestObject, HP.Sprinter.Common">
+              <Name>userName</Name>
+              <ClassType>WebEdit</ClassType>
+              <Children objectID="5" type="HP.MirrorTesting.Common.ChildrenCollection, HP.Sprinter.Common">
+                <Map objectID="6" type="HP.MirrorTesting.Common.ChildrenCollection+SubDictionaryWithParent, HP.Sprinter.Common">
+                  <FireEventsAsync>False</FireEventsAsync>
+                  <Elements isCollection="True" />
+                </Map>
+              </Children>
+              <CheckSum></CheckSum>
+              <Properties objectID="7">
+                <Elements isCollection="True" />
+              </Properties>
+              <Description objectID="8">
+                <Elements isCollection="True">
+                  <KeyValuePair>
+                    <Key>testobjname</Key>
+                    <Value objectID="9">
+                      <Flag>PROP_NOT_PERSIST, PROP_READ</Flag>
+                      <CompareType>CT_Default</CompareType>
+                      <PropType>8</PropType>
+                      <Value type="System.String, mscorlib">[ userName ]</Value>
+                    </Value>
+                  </KeyValuePair>
+                  <KeyValuePair>
+                    <Key>testobjgentype</Key>
+                    <Value objectID="10">
+                      <Flag>PROP_NOT_PERSIST, PROP_READ</Flag>
+                      <CompareType>CT_Default</CompareType>
+                      <PropType>8</PropType>
+                      <Value type="System.String, mscorlib">edit box</Value>
+                    </Value>
+                  </KeyValuePair>
+                  <KeyValuePair>
+                    <Key>micclass</Key>
+                    <Value objectID="11">
+                      <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_ATTRIBUTE</Flag>
+                      <CompareType>CT_Default</CompareType>
+                      <PropType>8</PropType>
+                      <Value type="System.String, mscorlib">WebEdit</Value>
+                    </Value>
+                  </KeyValuePair>
+                  <KeyValuePair>
+                    <Key>class name</Key>
+                    <Value objectID="12">
+                      <Flag>PROP_NOT_PERSIST, PROP_READ</Flag>
+                      <CompareType>CT_Default</CompareType>
+                      <PropType>8</PropType>
+                      <Value type="System.String, mscorlib">WebEdit</Value>
+                    </Value>
+                  </KeyValuePair>
+                  <KeyValuePair>
+                    <Key>_xpath</Key>
+                    <Value objectID="13">
+                      <Flag>PROP_READWRITE, PROP_OBLIG, PROP_NOT_COMPARE</Flag>
+                      <CompareType>CT_Default</CompareType>
+                      <PropType>8</PropType>
+                      <Value type="System.String, mscorlib">//TR[normalize-space()="User Name:"]/TD[2]/INPUT[1]</Value>
+                    </Value>
+                  </KeyValuePair>
+                  <KeyValuePair>
+                    <Key>visible</Key>
+                    <Value objectID="14">
+                      <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_OPTIONAL</Flag>
+                      <CompareType>CT_Default</CompareType>
+                      <PropType>11</PropType>
+                      <Value type="System.Boolean, mscorlib">True</Value>
+                    </Value>
+                  </KeyValuePair>
+                  <KeyValuePair>
+                    <Key>type</Key>
+                    <Value objectID="15">
+                      <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_EDITABLE, PROP_ATTRIBUTE</Flag>
+                      <CompareType>CT_Default</CompareType>
+                      <PropType>8</PropType>
+                      <Value type="System.String, mscorlib">text</Value>
+                    </Value>
+                  </KeyValuePair>
+                  <KeyValuePair>
+                    <Key>source_index</Key>
+                    <Value objectID="16">
+                      <Flag>PROP_READWRITE, PROP_NOT_COMPARE</Flag>
+                      <CompareType>CT_Default</CompareType>
+                      <PropType>3</PropType>
+                      <Value type="System.Int32, mscorlib">204</Value>
+                    </Value>
+                  </KeyValuePair>
+                  <KeyValuePair>
+                    <Key>rows</Key>
+                    <Value objectID="17">
+                      <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_OPTIONAL</Flag>
+                      <CompareType>CT_Default</CompareType>
+                      <PropType>3</PropType>
+                      <Value type="System.Int32, mscorlib">0</Value>
+                    </Value>
+                  </KeyValuePair>
+                  <KeyValuePair>
+                    <Key>name</Key>
+                    <Value objectID="18">
+                      <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_EDITABLE, PROP_ATTRIBUTE</Flag>
+                      <CompareType>CT_Default</CompareType>
+                      <PropType>8</PropType>
+                      <Value type="System.String, mscorlib">userName</Value>
+                    </Value>
+                  </KeyValuePair>
+                  <KeyValuePair>
+                    <Key>max length</Key>
+                    <Value objectID="19">
+                      <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_OPTIONAL</Flag>
+                      <CompareType>CT_Default</CompareType>
+                      <PropType>3</PropType>
+                      <Value type="System.Int32, mscorlib">2147483647</Value>
+                    </Value>
+                  </KeyValuePair>
+                  <KeyValuePair>
+                    <Key>html tag</Key>
+                    <Value objectID="20">
+                      <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_EDITABLE, PROP_ATTRIBUTE</Flag>
+                      <CompareType>CT_Default</CompareType>
+                      <PropType>8</PropType>
+                      <Value type="System.String, mscorlib">INPUT</Value>
+                    </Value>
+                  </KeyValuePair>
+                  <KeyValuePair>
+                    <Key>html id</Key>
+                    <Value objectID="21">
+                      <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_OPTIONAL</Flag>
+                      <CompareType>CT_Default</CompareType>
+                      <PropType>8</PropType>
+                      <Value type="System.String, mscorlib"></Value>
+                    </Value>
+                  </KeyValuePair>
+                  <KeyValuePair>
+                    <Key>default value</Key>
+                    <Value objectID="22">
+                      <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_OPTIONAL</Flag>
+                      <CompareType>CT_Default</CompareType>
+                      <PropType>8</PropType>
+                      <Value type="System.String, mscorlib"></Value>
+                    </Value>
+                  </KeyValuePair>
+                  <KeyValuePair>
+                    <Key>class</Key>
+                    <Value objectID="23">
+                      <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_OPTIONAL</Flag>
+                      <CompareType>CT_Default</CompareType>
+                      <PropType>8</PropType>
+                      <Value type="System.String, mscorlib"></Value>
+                    </Value>
+                  </KeyValuePair>
+                </Elements>
+              </Description>
+              <ObjectID isNull="True" />
+              <Parent objectID="24" type="HP.MirrorTesting.Common.TestObject.TestObject, HP.Sprinter.Common">
+                <Name>Welcome: Mercury Tours</Name>
+                <ClassType>Page</ClassType>
+                <Children objectID="25" type="HP.MirrorTesting.Common.ChildrenCollection, HP.Sprinter.Common">
+                  <Map objectID="26" type="HP.MirrorTesting.Common.ChildrenCollection+SubDictionaryWithParent, HP.Sprinter.Common">
+                    <FireEventsAsync>False</FireEventsAsync>
+                    <Elements isCollection="True">
+                      <KeyValuePair>
+                        <Key>userName</Key>
+                        <Value cyclicReferenceObjectID="4" />
+                      </KeyValuePair>
+                    </Elements>
+                  </Map>
+                </Children>
+                <CheckSum></CheckSum>
+                <Properties objectID="27">
+                  <Elements isCollection="True" />
+                </Properties>
+                <Description objectID="28">
+                  <Elements isCollection="True">
+                    <KeyValuePair>
+                      <Key>user-input in post data</Key>
+                      <Value objectID="29">
+                        <Flag>PROP_READWRITE, PROP_NOT_COMPARE</Flag>
+                        <CompareType>CT_Default</CompareType>
+                        <PropType>8</PropType>
+                        <Value type="System.String, mscorlib"></Value>
+                      </Value>
+                    </KeyValuePair>
+                    <KeyValuePair>
+                      <Key>user input in get data</Key>
+                      <Value objectID="30">
+                        <Flag>PROP_READWRITE, PROP_NOT_COMPARE</Flag>
+                        <CompareType>CT_Default</CompareType>
+                        <PropType>8</PropType>
+                        <Value type="System.String, mscorlib"></Value>
+                      </Value>
+                    </KeyValuePair>
+                    <KeyValuePair>
+                      <Key>url without form data</Key>
+                      <Value objectID="31">
+                        <Flag>PROP_READWRITE, PROP_NOT_COMPARE</Flag>
+                        <CompareType>CT_Default</CompareType>
+                        <PropType>8</PropType>
+                        <Value type="System.String, mscorlib">http://newtours.demoaut.com</Value>
+                      </Value>
+                    </KeyValuePair>
+                    <KeyValuePair>
+                      <Key>url</Key>
+                      <Value objectID="32">
+                        <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_OPTIONAL</Flag>
+                        <CompareType>CT_Default</CompareType>
+                        <PropType>8</PropType>
+                        <Value type="System.String, mscorlib">http://newtours.demoaut.com</Value>
+                      </Value>
+                    </KeyValuePair>
+                    <KeyValuePair>
+                      <Key>title</Key>
+                      <Value objectID="33">
+                        <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_OPTIONAL</Flag>
+                        <CompareType>CT_Default</CompareType>
+                        <PropType>8</PropType>
+                        <Value type="System.String, mscorlib">Welcome: Mercury Tours</Value>
+                      </Value>
+                    </KeyValuePair>
+                    <KeyValuePair>
+                      <Key>testobjname</Key>
+                      <Value objectID="34">
+                        <Flag>PROP_NOT_PERSIST, PROP_READ</Flag>
+                        <CompareType>CT_Default</CompareType>
+                        <PropType>8</PropType>
+                        <Value type="System.String, mscorlib">[ Welcome: Mercury Tours ]</Value>
+                      </Value>
+                    </KeyValuePair>
+                    <KeyValuePair>
+                      <Key>testobjgentype</Key>
+                      <Value objectID="35">
+                        <Flag>PROP_NOT_PERSIST, PROP_READ</Flag>
+                        <CompareType>CT_Default</CompareType>
+                        <PropType>8</PropType>
+                        <Value type="System.String, mscorlib">Web page</Value>
+                      </Value>
+                    </KeyValuePair>
+                    <KeyValuePair>
+                      <Key>non user-input in post data</Key>
+                      <Value objectID="36">
+                        <Flag>PROP_READWRITE, PROP_NOT_COMPARE</Flag>
+                        <CompareType>CT_Default</CompareType>
+                        <PropType>8</PropType>
+                        <Value type="System.String, mscorlib"></Value>
+                      </Value>
+                    </KeyValuePair>
+                    <KeyValuePair>
+                      <Key>non user-input in get data</Key>
+                      <Value objectID="37">
+                        <Flag>PROP_READWRITE, PROP_NOT_COMPARE</Flag>
+                        <CompareType>CT_Default</CompareType>
+                        <PropType>8</PropType>
+                        <Value type="System.String, mscorlib"></Value>
+                      </Value>
+                    </KeyValuePair>
+                    <KeyValuePair>
+                      <Key>micclass</Key>
+                      <Value objectID="38">
+                        <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_ATTRIBUTE</Flag>
+                        <CompareType>CT_Default</CompareType>
+                        <PropType>8</PropType>
+                        <Value type="System.String, mscorlib">Page</Value>
+                      </Value>
+                    </KeyValuePair>
+                    <KeyValuePair>
+                      <Key>index</Key>
+                      <Value objectID="39">
+                        <Flag>PROP_READWRITE, PROP_NOT_COMPARE</Flag>
+                        <CompareType>CT_Default</CompareType>
+                        <PropType>3</PropType>
+                        <Value type="System.Int32, mscorlib">10043</Value>
+                      </Value>
+                    </KeyValuePair>
+                    <KeyValuePair>
+                      <Key>document size</Key>
+                      <Value objectID="40">
+                        <Flag>PROP_READWRITE, PROP_NOT_COMPARE</Flag>
+                        <CompareType>CT_Default</CompareType>
+                        <PropType>3</PropType>
+                        <Value type="System.Int32, mscorlib">15125</Value>
+                      </Value>
+                    </KeyValuePair>
+                    <KeyValuePair>
+                      <Key>class name</Key>
+                      <Value objectID="41">
+                        <Flag>PROP_NOT_PERSIST, PROP_READ</Flag>
+                        <CompareType>CT_Default</CompareType>
+                        <PropType>8</PropType>
+                        <Value type="System.String, mscorlib">Page</Value>
+                      </Value>
+                    </KeyValuePair>
+                    <KeyValuePair>
+                      <Key>all data in get method</Key>
+                      <Value objectID="42">
+                        <Flag>PROP_READWRITE, PROP_NOT_COMPARE</Flag>
+                        <CompareType>CT_Default</CompareType>
+                        <PropType>8</PropType>
+                        <Value type="System.String, mscorlib"></Value>
+                      </Value>
+                    </KeyValuePair>
+                  </Elements>
+                </Description>
+                <ObjectID isNull="True" />
+                <Parent objectID="43" type="HP.MirrorTesting.Common.TestObject.TestObject, HP.Sprinter.Common">
+                  <Name>Welcome: Mercury Tours</Name>
+                  <ClassType>Browser</ClassType>
+                  <Children objectID="44" type="HP.MirrorTesting.Common.ChildrenCollection, HP.Sprinter.Common">
+                    <Map objectID="45" type="HP.MirrorTesting.Common.ChildrenCollection+SubDictionaryWithParent, HP.Sprinter.Common">
+                      <FireEventsAsync>False</FireEventsAsync>
+                      <Elements isCollection="True">
+                        <KeyValuePair>
+                          <Key>Welcome: Mercury Tours</Key>
+                          <Value cyclicReferenceObjectID="24" />
+                        </KeyValuePair>
+                      </Elements>
+                    </Map>
+                  </Children>
+                  <CheckSum></CheckSum>
+                  <Properties objectID="46">
+                    <Elements isCollection="True" />
+                  </Properties>
+                  <Description objectID="47">
+                    <Elements isCollection="True">
+                      <KeyValuePair>
+                        <Key>title</Key>
+                        <Value objectID="48">
+                          <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_OPTIONAL</Flag>
+                          <CompareType>CT_Default</CompareType>
+                          <PropType>8</PropType>
+                          <Value type="System.String, mscorlib">Welcome: Mercury Tours</Value>
+                        </Value>
+                      </KeyValuePair>
+                      <KeyValuePair>
+                        <Key>testobjname</Key>
+                        <Value objectID="49">
+                          <Flag>PROP_NOT_PERSIST, PROP_READ</Flag>
+                          <CompareType>CT_Default</CompareType>
+                          <PropType>8</PropType>
+                          <Value type="System.String, mscorlib">[ Welcome: Mercury Tours ]</Value>
+                        </Value>
+                      </KeyValuePair>
+                      <KeyValuePair>
+                        <Key>testobjgentype</Key>
+                        <Value objectID="50">
+                          <Flag>PROP_NOT_PERSIST, PROP_READ</Flag>
+                          <CompareType>CT_Default</CompareType>
+                          <PropType>8</PropType>
+                          <Value type="System.String, mscorlib">browser</Value>
+                        </Value>
+                      </KeyValuePair>
+                      <KeyValuePair>
+                        <Key>openurl</Key>
+                        <Value objectID="51">
+                          <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_OPTIONAL</Flag>
+                          <CompareType>CT_Default</CompareType>
+                          <PropType>8</PropType>
+                          <Value type="System.String, mscorlib">http://newtours.demoaut.com</Value>
+                        </Value>
+                      </KeyValuePair>
+                      <KeyValuePair>
+                        <Key>opentitle</Key>
+                        <Value objectID="52">
+                          <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_OPTIONAL</Flag>
+                          <CompareType>CT_Default</CompareType>
+                          <PropType>8</PropType>
+                          <Value type="System.String, mscorlib">Welcome: Mercury Tours</Value>
+                        </Value>
+                      </KeyValuePair>
+                      <KeyValuePair>
+                        <Key>openedbytestingtool</Key>
+                        <Value objectID="53">
+                          <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_OPTIONAL</Flag>
+                          <CompareType>CT_Default</CompareType>
+                          <PropType>11</PropType>
+                          <Value type="System.Boolean, mscorlib">False</Value>
+                        </Value>
+                      </KeyValuePair>
+                      <KeyValuePair>
+                        <Key>number of tabs</Key>
+                        <Value objectID="54">
+                          <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_OPTIONAL</Flag>
+                          <CompareType>CT_Default</CompareType>
+                          <PropType>3</PropType>
+                          <Value type="System.Int32, mscorlib">1</Value>
+                        </Value>
+                      </KeyValuePair>
+                      <KeyValuePair>
+                        <Key>name</Key>
+                        <Value objectID="55">
+                          <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_OPTIONAL</Flag>
+                          <CompareType>CT_Default</CompareType>
+                          <PropType>8</PropType>
+                          <Value type="System.String, mscorlib">Welcome: Mercury Tours</Value>
+                        </Value>
+                      </KeyValuePair>
+                      <KeyValuePair>
+                        <Key>micclass</Key>
+                        <Value objectID="56">
+                          <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_ATTRIBUTE</Flag>
+                          <CompareType>CT_Default</CompareType>
+                          <PropType>8</PropType>
+                          <Value type="System.String, mscorlib">Browser</Value>
+                        </Value>
+                      </KeyValuePair>
+                      <KeyValuePair>
+                        <Key>hastoolbar</Key>
+                        <Value objectID="57">
+                          <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_OPTIONAL</Flag>
+                          <CompareType>CT_Default</CompareType>
+                          <PropType>11</PropType>
+                          <Value type="System.Boolean, mscorlib">True</Value>
+                        </Value>
+                      </KeyValuePair>
+                      <KeyValuePair>
+                        <Key>hasstatusbar</Key>
+                        <Value objectID="58">
+                          <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_OPTIONAL</Flag>
+                          <CompareType>CT_Default</CompareType>
+                          <PropType>11</PropType>
+                          <Value type="System.Boolean, mscorlib">True</Value>
+                        </Value>
+                      </KeyValuePair>
+                      <KeyValuePair>
+                        <Key>hasmenubar</Key>
+                        <Value objectID="59">
+                          <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_OPTIONAL</Flag>
+                          <CompareType>CT_Default</CompareType>
+                          <PropType>11</PropType>
+                          <Value type="System.Boolean, mscorlib">True</Value>
+                        </Value>
+                      </KeyValuePair>
+                      <KeyValuePair>
+                        <Key>creationtime</Key>
+                        <Value objectID="60">
+                          <Flag>PROP_READWRITE, PROP_EDITABLE, PROP_SELECTOR</Flag>
+                          <CompareType>CT_Default</CompareType>
+                          <PropType>3</PropType>
+                          <Value type="System.Int32, mscorlib">1</Value>
+                        </Value>
+                      </KeyValuePair>
+                      <KeyValuePair>
+                        <Key>class name</Key>
+                        <Value objectID="61">
+                          <Flag>PROP_NOT_PERSIST, PROP_READ</Flag>
+                          <CompareType>CT_Default</CompareType>
+                          <PropType>8</PropType>
+                          <Value type="System.String, mscorlib">Browser</Value>
+                        </Value>
+                      </KeyValuePair>
+                      <KeyValuePair>
+                        <Key>browserindex</Key>
+                        <Value objectID="62">
+                          <Flag>PROP_NOT_COMPARE</Flag>
+                          <CompareType>CT_Default</CompareType>
+                          <PropType>2</PropType>
+                          <Value type="System.Int16, mscorlib">1</Value>
+                        </Value>
+                      </KeyValuePair>
+                    </Elements>
+                  </Description>
+                  <ObjectID isNull="True" />
+                  <Parent isNull="True" />
+                </Parent>
+              </Parent>
+            </StepTestObject>
+            <Method>Set</Method>
+            <Delay>0</Delay>
+            <Arguments objectID="63">
+              <Elements isCollection="True">
+                <String type="System.String, mscorlib">mercury</String>
+              </Elements>
+            </Arguments>
+            <Description>Enter "mercury" in the "userName" edit field.</Description>
+          </Step>
+          <Step objectID="64" type="HP.MirrorTesting.Common.Step, HP.Sprinter.Common">
+            <StepTestObject objectID="65" type="HP.MirrorTesting.Common.TestObject.TestObject, HP.Sprinter.Common">
+              <Name>password</Name>
+              <ClassType>WebEdit</ClassType>
+              <Children objectID="66" type="HP.MirrorTesting.Common.ChildrenCollection, HP.Sprinter.Common">
+                <Map objectID="67" type="HP.MirrorTesting.Common.ChildrenCollection+SubDictionaryWithParent, HP.Sprinter.Common">
+                  <FireEventsAsync>False</FireEventsAsync>
+                  <Elements isCollection="True" />
+                </Map>
+              </Children>
+              <CheckSum></CheckSum>
+              <Properties objectID="68">
+                <Elements isCollection="True" />
+              </Properties>
+              <Description objectID="69">
+                <Elements isCollection="True">
+                  <KeyValuePair>
+                    <Key>testobjname</Key>
+                    <Value objectID="70">
+                      <Flag>PROP_NOT_PERSIST, PROP_READ</Flag>
+                      <CompareType>CT_Default</CompareType>
+                      <PropType>8</PropType>
+                      <Value type="System.String, mscorlib">[ password ]</Value>
+                    </Value>
+                  </KeyValuePair>
+                  <KeyValuePair>
+                    <Key>testobjgentype</Key>
+                    <Value objectID="71">
+                      <Flag>PROP_NOT_PERSIST, PROP_READ</Flag>
+                      <CompareType>CT_Default</CompareType>
+                      <PropType>8</PropType>
+                      <Value type="System.String, mscorlib">edit box</Value>
+                    </Value>
+                  </KeyValuePair>
+                  <KeyValuePair>
+                    <Key>micclass</Key>
+                    <Value objectID="72">
+                      <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_ATTRIBUTE</Flag>
+                      <CompareType>CT_Default</CompareType>
+                      <PropType>8</PropType>
+                      <Value type="System.String, mscorlib">WebEdit</Value>
+                    </Value>
+                  </KeyValuePair>
+                  <KeyValuePair>
+                    <Key>class name</Key>
+                    <Value objectID="73">
+                      <Flag>PROP_NOT_PERSIST, PROP_READ</Flag>
+                      <CompareType>CT_Default</CompareType>
+                      <PropType>8</PropType>
+                      <Value type="System.String, mscorlib">WebEdit</Value>
+                    </Value>
+                  </KeyValuePair>
+                  <KeyValuePair>
+                    <Key>_xpath</Key>
+                    <Value objectID="74">
+                      <Flag>PROP_READWRITE, PROP_OBLIG, PROP_NOT_COMPARE</Flag>
+                      <CompareType>CT_Default</CompareType>
+                      <PropType>8</PropType>
+                      <Value type="System.String, mscorlib">//TR[normalize-space()="Password:"]/TD[2]/INPUT[1]</Value>
+                    </Value>
+                  </KeyValuePair>
+                  <KeyValuePair>
+                    <Key>visible</Key>
+                    <Value objectID="75">
+                      <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_OPTIONAL</Flag>
+                      <CompareType>CT_Default</CompareType>
+                      <PropType>11</PropType>
+                      <Value type="System.Boolean, mscorlib">True</Value>
+                    </Value>
+                  </KeyValuePair>
+                  <KeyValuePair>
+                    <Key>type</Key>
+                    <Value objectID="76">
+                      <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_EDITABLE, PROP_ATTRIBUTE</Flag>
+                      <CompareType>CT_Default</CompareType>
+                      <PropType>8</PropType>
+                      <Value type="System.String, mscorlib">password</Value>
+                    </Value>
+                  </KeyValuePair>
+                  <KeyValuePair>
+                    <Key>source_index</Key>
+                    <Value objectID="77">
+                      <Flag>PROP_READWRITE, PROP_NOT_COMPARE</Flag>
+                      <CompareType>CT_Default</CompareType>
+                      <PropType>3</PropType>
+                      <Value type="System.Int32, mscorlib">209</Value>
+                    </Value>
+                  </KeyValuePair>
+                  <KeyValuePair>
+                    <Key>rows</Key>
+                    <Value objectID="78">
+                      <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_OPTIONAL</Flag>
+                      <CompareType>CT_Default</CompareType>
+                      <PropType>3</PropType>
+                      <Value type="System.Int32, mscorlib">0</Value>
+                    </Value>
+                  </KeyValuePair>
+                  <KeyValuePair>
+                    <Key>name</Key>
+                    <Value objectID="79">
+                      <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_EDITABLE, PROP_ATTRIBUTE</Flag>
+                      <CompareType>CT_Default</CompareType>
+                      <PropType>8</PropType>
+                      <Value type="System.String, mscorlib">password</Value>
+                    </Value>
+                  </KeyValuePair>
+                  <KeyValuePair>
+                    <Key>max length</Key>
+                    <Value objectID="80">
+                      <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_OPTIONAL</Flag>
+                      <CompareType>CT_Default</CompareType>
+                      <PropType>3</PropType>
+                      <Value type="System.Int32, mscorlib">2147483647</Value>
+                    </Value>
+                  </KeyValuePair>
+                  <KeyValuePair>
+                    <Key>html tag</Key>
+                    <Value objectID="81">
+                      <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_EDITABLE, PROP_ATTRIBUTE</Flag>
+                      <CompareType>CT_Default</CompareType>
+                      <PropType>8</PropType>
+                      <Value type="System.String, mscorlib">INPUT</Value>
+                    </Value>
+                  </KeyValuePair>
+                  <KeyValuePair>
+                    <Key>html id</Key>
+                    <Value objectID="82">
+                      <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_OPTIONAL</Flag>
+                      <CompareType>CT_Default</CompareType>
+                      <PropType>8</PropType>
+                      <Value type="System.String, mscorlib"></Value>
+                    </Value>
+                  </KeyValuePair>
+                  <KeyValuePair>
+                    <Key>default value</Key>
+                    <Value objectID="83">
+                      <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_OPTIONAL</Flag>
+                      <CompareType>CT_Default</CompareType>
+                      <PropType>8</PropType>
+                      <Value type="System.String, mscorlib"></Value>
+                    </Value>
+                  </KeyValuePair>
+                  <KeyValuePair>
+                    <Key>class</Key>
+                    <Value objectID="84">
+                      <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_OPTIONAL</Flag>
+                      <CompareType>CT_Default</CompareType>
+                      <PropType>8</PropType>
+                      <Value type="System.String, mscorlib"></Value>
+                    </Value>
+                  </KeyValuePair>
+                </Elements>
+              </Description>
+              <ObjectID isNull="True" />
+              <Parent objectID="85" type="HP.MirrorTesting.Common.TestObject.TestObject, HP.Sprinter.Common">
+                <Name>Welcome: Mercury Tours</Name>
+                <ClassType>Page</ClassType>
+                <Children objectID="86" type="HP.MirrorTesting.Common.ChildrenCollection, HP.Sprinter.Common">
+                  <Map objectID="87" type="HP.MirrorTesting.Common.ChildrenCollection+SubDictionaryWithParent, HP.Sprinter.Common">
+                    <FireEventsAsync>False</FireEventsAsync>
+                    <Elements isCollection="True">
+                      <KeyValuePair>
+                        <Key>password</Key>
+                        <Value cyclicReferenceObjectID="65" />
+                      </KeyValuePair>
+                    </Elements>
+                  </Map>
+                </Children>
+                <CheckSum></CheckSum>
+                <Properties objectID="88">
+                  <Elements isCollection="True" />
+                </Properties>
+                <Description objectID="89">
+                  <Elements isCollection="True">
+                    <KeyValuePair>
+                      <Key>user-input in post data</Key>
+                      <Value objectID="90">
+                        <Flag>PROP_READWRITE, PROP_NOT_COMPARE</Flag>
+                        <CompareType>CT_Default</CompareType>
+                        <PropType>8</PropType>
+                        <Value type="System.String, mscorlib"></Value>
+                      </Value>
+                    </KeyValuePair>
+                    <KeyValuePair>
+                      <Key>user input in get data</Key>
+                      <Value objectID="91">
+                        <Flag>PROP_READWRITE, PROP_NOT_COMPARE</Flag>
+                        <CompareType>CT_Default</CompareType>
+                        <PropType>8</PropType>
+                        <Value type="System.String, mscorlib"></Value>
+                      </Value>
+                    </KeyValuePair>
+                    <KeyValuePair>
+                      <Key>url without form data</Key>
+                      <Value objectID="92">
+                        <Flag>PROP_READWRITE, PROP_NOT_COMPARE</Flag>
+                        <CompareType>CT_Default</CompareType>
+                        <PropType>8</PropType>
+                        <Value type="System.String, mscorlib">http://newtours.demoaut.com</Value>
+                      </Value>
+                    </KeyValuePair>
+                    <KeyValuePair>
+                      <Key>url</Key>
+                      <Value objectID="93">
+                        <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_OPTIONAL</Flag>
+                        <CompareType>CT_Default</CompareType>
+                        <PropType>8</PropType>
+                        <Value type="System.String, mscorlib">http://newtours.demoaut.com</Value>
+                      </Value>
+                    </KeyValuePair>
+                    <KeyValuePair>
+                      <Key>title</Key>
+                      <Value objectID="94">
+                        <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_OPTIONAL</Flag>
+                        <CompareType>CT_Default</CompareType>
+                        <PropType>8</PropType>
+                        <Value type="System.String, mscorlib">Welcome: Mercury Tours</Value>
+                      </Value>
+                    </KeyValuePair>
+                    <KeyValuePair>
+                      <Key>testobjname</Key>
+                      <Value objectID="95">
+                        <Flag>PROP_NOT_PERSIST, PROP_READ</Flag>
+                        <CompareType>CT_Default</CompareType>
+                        <PropType>8</PropType>
+                        <Value type="System.String, mscorlib">[ Welcome: Mercury Tours ]</Value>
+                      </Value>
+                    </KeyValuePair>
+                    <KeyValuePair>
+                      <Key>testobjgentype</Key>
+                      <Value objectID="96">
+                        <Flag>PROP_NOT_PERSIST, PROP_READ</Flag>
+                        <CompareType>CT_Default</CompareType>
+                        <PropType>8</PropType>
+                        <Value type="System.String, mscorlib">Web page</Value>
+                      </Value>
+                    </KeyValuePair>
+                    <KeyValuePair>
+                      <Key>non user-input in post data</Key>
+                      <Value objectID="97">
+                        <Flag>PROP_READWRITE, PROP_NOT_COMPARE</Flag>
+                        <CompareType>CT_Default</CompareType>
+                        <PropType>8</PropType>
+                        <Value type="System.String, mscorlib"></Value>
+                      </Value>
+                    </KeyValuePair>
+                    <KeyValuePair>
+                      <Key>non user-input in get data</Key>
+                      <Value objectID="98">
+                        <Flag>PROP_READWRITE, PROP_NOT_COMPARE</Flag>
+                        <CompareType>CT_Default</CompareType>
+                        <PropType>8</PropType>
+                        <Value type="System.String, mscorlib"></Value>
+                      </Value>
+                    </KeyValuePair>
+                    <KeyValuePair>
+                      <Key>micclass</Key>
+                      <Value objectID="99">
+                        <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_ATTRIBUTE</Flag>
+                        <CompareType>CT_Default</CompareType>
+                        <PropType>8</PropType>
+                        <Value type="System.String, mscorlib">Page</Value>
+                      </Value>
+                    </KeyValuePair>
+                    <KeyValuePair>
+                      <Key>index</Key>
+                      <Value objectID="100">
+                        <Flag>PROP_READWRITE, PROP_NOT_COMPARE</Flag>
+                        <CompareType>CT_Default</CompareType>
+                        <PropType>3</PropType>
+                        <Value type="System.Int32, mscorlib">10043</Value>
+                      </Value>
+                    </KeyValuePair>
+                    <KeyValuePair>
+                      <Key>document size</Key>
+                      <Value objectID="101">
+                        <Flag>PROP_READWRITE, PROP_NOT_COMPARE</Flag>
+                        <CompareType>CT_Default</CompareType>
+                        <PropType>3</PropType>
+                        <Value type="System.Int32, mscorlib">15125</Value>
+                      </Value>
+                    </KeyValuePair>
+                    <KeyValuePair>
+                      <Key>class name</Key>
+                      <Value objectID="102">
+                        <Flag>PROP_NOT_PERSIST, PROP_READ</Flag>
+                        <CompareType>CT_Default</CompareType>
+                        <PropType>8</PropType>
+                        <Value type="System.String, mscorlib">Page</Value>
+                      </Value>
+                    </KeyValuePair>
+                    <KeyValuePair>
+                      <Key>all data in get method</Key>
+                      <Value objectID="103">
+                        <Flag>PROP_READWRITE, PROP_NOT_COMPARE</Flag>
+                        <CompareType>CT_Default</CompareType>
+                        <PropType>8</PropType>
+                        <Value type="System.String, mscorlib"></Value>
+                      </Value>
+                    </KeyValuePair>
+                  </Elements>
+                </Description>
+                <ObjectID isNull="True" />
+                <Parent objectID="104" type="HP.MirrorTesting.Common.TestObject.TestObject, HP.Sprinter.Common">
+                  <Name>Welcome: Mercury Tours</Name>
+                  <ClassType>Browser</ClassType>
+                  <Children objectID="105" type="HP.MirrorTesting.Common.ChildrenCollection, HP.Sprinter.Common">
+                    <Map objectID="106" type="HP.MirrorTesting.Common.ChildrenCollection+SubDictionaryWithParent, HP.Sprinter.Common">
+                      <FireEventsAsync>False</FireEventsAsync>
+                      <Elements isCollection="True">
+                        <KeyValuePair>
+                          <Key>Welcome: Mercury Tours</Key>
+                          <Value cyclicReferenceObjectID="85" />
+                        </KeyValuePair>
+                      </Elements>
+                    </Map>
+                  </Children>
+                  <CheckSum></CheckSum>
+                  <Properties objectID="107">
+                    <Elements isCollection="True" />
+                  </Properties>
+                  <Description objectID="108">
+                    <Elements isCollection="True">
+                      <KeyValuePair>
+                        <Key>title</Key>
+                        <Value objectID="109">
+                          <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_OPTIONAL</Flag>
+                          <CompareType>CT_Default</CompareType>
+                          <PropType>8</PropType>
+                          <Value type="System.String, mscorlib">Welcome: Mercury Tours</Value>
+                        </Value>
+                      </KeyValuePair>
+                      <KeyValuePair>
+                        <Key>testobjname</Key>
+                        <Value objectID="110">
+                          <Flag>PROP_NOT_PERSIST, PROP_READ</Flag>
+                          <CompareType>CT_Default</CompareType>
+                          <PropType>8</PropType>
+                          <Value type="System.String, mscorlib">[ Welcome: Mercury Tours ]</Value>
+                        </Value>
+                      </KeyValuePair>
+                      <KeyValuePair>
+                        <Key>testobjgentype</Key>
+                        <Value objectID="111">
+                          <Flag>PROP_NOT_PERSIST, PROP_READ</Flag>
+                          <CompareType>CT_Default</CompareType>
+                          <PropType>8</PropType>
+                          <Value type="System.String, mscorlib">browser</Value>
+                        </Value>
+                      </KeyValuePair>
+                      <KeyValuePair>
+                        <Key>openurl</Key>
+                        <Value objectID="112">
+                          <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_OPTIONAL</Flag>
+                          <CompareType>CT_Default</CompareType>
+                          <PropType>8</PropType>
+                          <Value type="System.String, mscorlib">http://newtours.demoaut.com</Value>
+                        </Value>
+                      </KeyValuePair>
+                      <KeyValuePair>
+                        <Key>opentitle</Key>
+                        <Value objectID="113">
+                          <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_OPTIONAL</Flag>
+                          <CompareType>CT_Default</CompareType>
+                          <PropType>8</PropType>
+                          <Value type="System.String, mscorlib">Welcome: Mercury Tours</Value>
+                        </Value>
+                      </KeyValuePair>
+                      <KeyValuePair>
+                        <Key>openedbytestingtool</Key>
+                        <Value objectID="114">
+                          <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_OPTIONAL</Flag>
+                          <CompareType>CT_Default</CompareType>
+                          <PropType>11</PropType>
+                          <Value type="System.Boolean, mscorlib">False</Value>
+                        </Value>
+                      </KeyValuePair>
+                      <KeyValuePair>
+                        <Key>number of tabs</Key>
+                        <Value objectID="115">
+                          <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_OPTIONAL</Flag>
+                          <CompareType>CT_Default</CompareType>
+                          <PropType>3</PropType>
+                          <Value type="System.Int32, mscorlib">1</Value>
+                        </Value>
+                      </KeyValuePair>
+                      <KeyValuePair>
+                        <Key>name</Key>
+                        <Value objectID="116">
+                          <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_OPTIONAL</Flag>
+                          <CompareType>CT_Default</CompareType>
+                          <PropType>8</PropType>
+                          <Value type="System.String, mscorlib">Welcome: Mercury Tours</Value>
+                        </Value>
+                      </KeyValuePair>
+                      <KeyValuePair>
+                        <Key>micclass</Key>
+                        <Value objectID="117">
+                          <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_ATTRIBUTE</Flag>
+                          <CompareType>CT_Default</CompareType>
+                          <PropType>8</PropType>
+                          <Value type="System.String, mscorlib">Browser</Value>
+                        </Value>
+                      </KeyValuePair>
+                      <KeyValuePair>
+                        <Key>hastoolbar</Key>
+                        <Value objectID="118">
+                          <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_OPTIONAL</Flag>
+                          <CompareType>CT_Default</CompareType>
+                          <PropType>11</PropType>
+                          <Value type="System.Boolean, mscorlib">True</Value>
+                        </Value>
+                      </KeyValuePair>
+                      <KeyValuePair>
+                        <Key>hasstatusbar</Key>
+                        <Value objectID="119">
+                          <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_OPTIONAL</Flag>
+                          <CompareType>CT_Default</CompareType>
+                          <PropType>11</PropType>
+                          <Value type="System.Boolean, mscorlib">True</Value>
+                        </Value>
+                      </KeyValuePair>
+                      <KeyValuePair>
+                        <Key>hasmenubar</Key>
+                        <Value objectID="120">
+                          <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_OPTIONAL</Flag>
+                          <CompareType>CT_Default</CompareType>
+                          <PropType>11</PropType>
+                          <Value type="System.Boolean, mscorlib">True</Value>
+                        </Value>
+                      </KeyValuePair>
+                      <KeyValuePair>
+                        <Key>creationtime</Key>
+                        <Value objectID="121">
+                          <Flag>PROP_READWRITE, PROP_EDITABLE, PROP_SELECTOR</Flag>
+                          <CompareType>CT_Default</CompareType>
+                          <PropType>3</PropType>
+                          <Value type="System.Int32, mscorlib">1</Value>
+                        </Value>
+                      </KeyValuePair>
+                      <KeyValuePair>
+                        <Key>class name</Key>
+                        <Value objectID="122">
+                          <Flag>PROP_NOT_PERSIST, PROP_READ</Flag>
+                          <CompareType>CT_Default</CompareType>
+                          <PropType>8</PropType>
+                          <Value type="System.String, mscorlib">Browser</Value>
+                        </Value>
+                      </KeyValuePair>
+                      <KeyValuePair>
+                        <Key>browserindex</Key>
+                        <Value objectID="123">
+                          <Flag>PROP_NOT_COMPARE</Flag>
+                          <CompareType>CT_Default</CompareType>
+                          <PropType>2</PropType>
+                          <Value type="System.Int16, mscorlib">1</Value>
+                        </Value>
+                      </KeyValuePair>
+                    </Elements>
+                  </Description>
+                  <ObjectID isNull="True" />
+                  <Parent isNull="True" />
+                </Parent>
+              </Parent>
+            </StepTestObject>
+            <Method>SetSecure</Method>
+            <Delay>5627.1692</Delay>
+            <Arguments objectID="124">
+              <Elements isCollection="True">
+                <String type="System.String, mscorlib">4c678fa62693c1352b5a1d85280b73779af0ddae</String>
+              </Elements>
+            </Arguments>
+            <Description>Enter the encrypted password in the "password" edit field.</Description>
+          </Step>
+          <Step objectID="125" type="HP.MirrorTesting.Common.Step, HP.Sprinter.Common">
+            <StepTestObject objectID="126" type="HP.MirrorTesting.Common.TestObject.TestObject, HP.Sprinter.Common">
+              <Name>Sign-In</Name>
+              <ClassType>Image</ClassType>
+              <Children objectID="127" type="HP.MirrorTesting.Common.ChildrenCollection, HP.Sprinter.Common">
+                <Map objectID="128" type="HP.MirrorTesting.Common.ChildrenCollection+SubDictionaryWithParent, HP.Sprinter.Common">
+                  <FireEventsAsync>False</FireEventsAsync>
+                  <Elements isCollection="True" />
+                </Map>
+              </Children>
+              <CheckSum></CheckSum>
+              <Properties objectID="129">
+                <Elements isCollection="True" />
+              </Properties>
+              <Description objectID="130">
+                <Elements isCollection="True">
+                  <KeyValuePair>
+                    <Key>testobjname</Key>
+                    <Value objectID="131">
+                      <Flag>PROP_NOT_PERSIST, PROP_READ</Flag>
+                      <CompareType>CT_Default</CompareType>
+                      <PropType>8</PropType>
+                      <Value type="System.String, mscorlib">[ Sign-In ]</Value>
+                    </Value>
+                  </KeyValuePair>
+                  <KeyValuePair>
+                    <Key>testobjgentype</Key>
+                    <Value objectID="132">
+                      <Flag>PROP_NOT_PERSIST, PROP_READ</Flag>
+                      <CompareType>CT_Default</CompareType>
+                      <PropType>8</PropType>
+                      <Value type="System.String, mscorlib">image</Value>
+                    </Value>
+                  </KeyValuePair>
+                  <KeyValuePair>
+                    <Key>micclass</Key>
+                    <Value objectID="133">
+                      <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_ATTRIBUTE</Flag>
+                      <CompareType>CT_Default</CompareType>
+                      <PropType>8</PropType>
+                      <Value type="System.String, mscorlib">Image</Value>
+                    </Value>
+                  </KeyValuePair>
+                  <KeyValuePair>
+                    <Key>class name</Key>
+                    <Value objectID="134">
+                      <Flag>PROP_NOT_PERSIST, PROP_READ</Flag>
+                      <CompareType>CT_Default</CompareType>
+                      <PropType>8</PropType>
+                      <Value type="System.String, mscorlib">Image</Value>
+                    </Value>
+                  </KeyValuePair>
+                  <KeyValuePair>
+                    <Key>_xpath</Key>
+                    <Value objectID="135">
+                      <Flag>PROP_READWRITE, PROP_OBLIG, PROP_NOT_COMPARE</Flag>
+                      <CompareType>CT_Default</CompareType>
+                      <PropType>8</PropType>
+                      <Value type="System.String, mscorlib">//TR[4]/TD[2]/DIV[1]/INPUT[1]</Value>
+                    </Value>
+                  </KeyValuePair>
+                  <KeyValuePair>
+                    <Key>width</Key>
+                    <Value objectID="136">
+                      <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_OPTIONAL</Flag>
+                      <CompareType>CT_Default</CompareType>
+                      <PropType>3</PropType>
+                      <Value type="System.Int32, mscorlib">58</Value>
+                    </Value>
+                  </KeyValuePair>
+                  <KeyValuePair>
+                    <Key>visible</Key>
+                    <Value objectID="137">
+                      <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_OPTIONAL</Flag>
+                      <CompareType>CT_Default</CompareType>
+                      <PropType>11</PropType>
+                      <Value type="System.Boolean, mscorlib">True</Value>
+                    </Value>
+                  </KeyValuePair>
+                  <KeyValuePair>
+                    <Key>source_index</Key>
+                    <Value objectID="138">
+                      <Flag>PROP_READWRITE, PROP_NOT_COMPARE</Flag>
+                      <CompareType>CT_Default</CompareType>
+                      <PropType>3</PropType>
+                      <Value type="System.Int32, mscorlib">214</Value>
+                    </Value>
+                  </KeyValuePair>
+                  <KeyValuePair>
+                    <Key>name</Key>
+                    <Value objectID="139">
+                      <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_OPTIONAL</Flag>
+                      <CompareType>CT_Default</CompareType>
+                      <PropType>8</PropType>
+                      <Value type="System.String, mscorlib">login</Value>
+                    </Value>
+                  </KeyValuePair>
+                  <KeyValuePair>
+                    <Key>image type</Key>
+                    <Value objectID="140">
+                      <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_EDITABLE, PROP_ATTRIBUTE</Flag>
+                      <CompareType>CT_Default</CompareType>
+                      <PropType>8</PropType>
+                      <Value type="System.String, mscorlib">Image Button</Value>
+                    </Value>
+                  </KeyValuePair>
+                  <KeyValuePair>
+                    <Key>html tag</Key>
+                    <Value objectID="141">
+                      <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_EDITABLE, PROP_ATTRIBUTE</Flag>
+                      <CompareType>CT_Default</CompareType>
+                      <PropType>8</PropType>
+                      <Value type="System.String, mscorlib">INPUT</Value>
+                    </Value>
+                  </KeyValuePair>
+                  <KeyValuePair>
+                    <Key>html id</Key>
+                    <Value objectID="142">
+                      <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_OPTIONAL</Flag>
+                      <CompareType>CT_Default</CompareType>
+                      <PropType>8</PropType>
+                      <Value type="System.String, mscorlib"></Value>
+                    </Value>
+                  </KeyValuePair>
+                  <KeyValuePair>
+                    <Key>file name</Key>
+                    <Value objectID="143">
+                      <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_OPTIONAL</Flag>
+                      <CompareType>CT_Default</CompareType>
+                      <PropType>8</PropType>
+                      <Value type="System.String, mscorlib">btn_signin.gif</Value>
+                    </Value>
+                  </KeyValuePair>
+                  <KeyValuePair>
+                    <Key>class</Key>
+                    <Value objectID="144">
+                      <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_OPTIONAL</Flag>
+                      <CompareType>CT_Default</CompareType>
+                      <PropType>8</PropType>
+                      <Value type="System.String, mscorlib"></Value>
+                    </Value>
+                  </KeyValuePair>
+                  <KeyValuePair>
+                    <Key>alt</Key>
+                    <Value objectID="145">
+                      <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_EDITABLE, PROP_ATTRIBUTE</Flag>
+                      <CompareType>CT_Default</CompareType>
+                      <PropType>8</PropType>
+                      <Value type="System.String, mscorlib">Sign-In</Value>
+                    </Value>
+                  </KeyValuePair>
+                </Elements>
+              </Description>
+              <ObjectID isNull="True" />
+              <Parent objectID="146" type="HP.MirrorTesting.Common.TestObject.TestObject, HP.Sprinter.Common">
+                <Name>Welcome: Mercury Tours</Name>
+                <ClassType>Page</ClassType>
+                <Children objectID="147" type="HP.MirrorTesting.Common.ChildrenCollection, HP.Sprinter.Common">
+                  <Map objectID="148" type="HP.MirrorTesting.Common.ChildrenCollection+SubDictionaryWithParent, HP.Sprinter.Common">
+                    <FireEventsAsync>False</FireEventsAsync>
+                    <Elements isCollection="True">
+                      <KeyValuePair>
+                        <Key>Sign-In</Key>
+                        <Value cyclicReferenceObjectID="126" />
+                      </KeyValuePair>
+                    </Elements>
+                  </Map>
+                </Children>
+                <CheckSum></CheckSum>
+                <Properties objectID="149">
+                  <Elements isCollection="True" />
+                </Properties>
+                <Description objectID="150">
+                  <Elements isCollection="True">
+                    <KeyValuePair>
+                      <Key>user-input in post data</Key>
+                      <Value objectID="151">
+                        <Flag>PROP_READWRITE, PROP_NOT_COMPARE</Flag>
+                        <CompareType>CT_Default</CompareType>
+                        <PropType>8</PropType>
+                        <Value type="System.String, mscorlib"></Value>
+                      </Value>
+                    </KeyValuePair>
+                    <KeyValuePair>
+                      <Key>user input in get data</Key>
+                      <Value objectID="152">
+                        <Flag>PROP_READWRITE, PROP_NOT_COMPARE</Flag>
+                        <CompareType>CT_Default</CompareType>
+                        <PropType>8</PropType>
+                        <Value type="System.String, mscorlib"></Value>
+                      </Value>
+                    </KeyValuePair>
+                    <KeyValuePair>
+                      <Key>url without form data</Key>
+                      <Value objectID="153">
+                        <Flag>PROP_READWRITE, PROP_NOT_COMPARE</Flag>
+                        <CompareType>CT_Default</CompareType>
+                        <PropType>8</PropType>
+                        <Value type="System.String, mscorlib">http://newtours.demoaut.com</Value>
+                      </Value>
+                    </KeyValuePair>
+                    <KeyValuePair>
+                      <Key>url</Key>
+                      <Value objectID="154">
+                        <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_OPTIONAL</Flag>
+                        <CompareType>CT_Default</CompareType>
+                        <PropType>8</PropType>
+                        <Value type="System.String, mscorlib">http://newtours.demoaut.com</Value>
+                      </Value>
+                    </KeyValuePair>
+                    <KeyValuePair>
+                      <Key>title</Key>
+                      <Value objectID="155">
+                        <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_OPTIONAL</Flag>
+                        <CompareType>CT_Default</CompareType>
+                        <PropType>8</PropType>
+                        <Value type="System.String, mscorlib">Welcome: Mercury Tours</Value>
+                      </Value>
+                    </KeyValuePair>
+                    <KeyValuePair>
+                      <Key>testobjname</Key>
+                      <Value objectID="156">
+                        <Flag>PROP_NOT_PERSIST, PROP_READ</Flag>
+                        <CompareType>CT_Default</CompareType>
+                        <PropType>8</PropType>
+                        <Value type="System.String, mscorlib">[ Welcome: Mercury Tours ]</Value>
+                      </Value>
+                    </KeyValuePair>
+                    <KeyValuePair>
+                      <Key>testobjgentype</Key>
+                      <Value objectID="157">
+                        <Flag>PROP_NOT_PERSIST, PROP_READ</Flag>
+                        <CompareType>CT_Default</CompareType>
+                        <PropType>8</PropType>
+                        <Value type="System.String, mscorlib">Web page</Value>
+                      </Value>
+                    </KeyValuePair>
+                    <KeyValuePair>
+                      <Key>non user-input in post data</Key>
+                      <Value objectID="158">
+                        <Flag>PROP_READWRITE, PROP_NOT_COMPARE</Flag>
+                        <CompareType>CT_Default</CompareType>
+                        <PropType>8</PropType>
+                        <Value type="System.String, mscorlib"></Value>
+                      </Value>
+                    </KeyValuePair>
+                    <KeyValuePair>
+                      <Key>non user-input in get data</Key>
+                      <Value objectID="159">
+                        <Flag>PROP_READWRITE, PROP_NOT_COMPARE</Flag>
+                        <CompareType>CT_Default</CompareType>
+                        <PropType>8</PropType>
+                        <Value type="System.String, mscorlib"></Value>
+                      </Value>
+                    </KeyValuePair>
+                    <KeyValuePair>
+                      <Key>micclass</Key>
+                      <Value objectID="160">
+                        <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_ATTRIBUTE</Flag>
+                        <CompareType>CT_Default</CompareType>
+                        <PropType>8</PropType>
+                        <Value type="System.String, mscorlib">Page</Value>
+                      </Value>
+                    </KeyValuePair>
+                    <KeyValuePair>
+                      <Key>index</Key>
+                      <Value objectID="161">
+                        <Flag>PROP_READWRITE, PROP_NOT_COMPARE</Flag>
+                        <CompareType>CT_Default</CompareType>
+                        <PropType>3</PropType>
+                        <Value type="System.Int32, mscorlib">10043</Value>
+                      </Value>
+                    </KeyValuePair>
+                    <KeyValuePair>
+                      <Key>document size</Key>
+                      <Value objectID="162">
+                        <Flag>PROP_READWRITE, PROP_NOT_COMPARE</Flag>
+                        <CompareType>CT_Default</CompareType>
+                        <PropType>3</PropType>
+                        <Value type="System.Int32, mscorlib">15125</Value>
+                      </Value>
+                    </KeyValuePair>
+                    <KeyValuePair>
+                      <Key>class name</Key>
+                      <Value objectID="163">
+                        <Flag>PROP_NOT_PERSIST, PROP_READ</Flag>
+                        <CompareType>CT_Default</CompareType>
+                        <PropType>8</PropType>
+                        <Value type="System.String, mscorlib">Page</Value>
+                      </Value>
+                    </KeyValuePair>
+                    <KeyValuePair>
+                      <Key>all data in get method</Key>
+                      <Value objectID="164">
+                        <Flag>PROP_READWRITE, PROP_NOT_COMPARE</Flag>
+                        <CompareType>CT_Default</CompareType>
+                        <PropType>8</PropType>
+                        <Value type="System.String, mscorlib"></Value>
+                      </Value>
+                    </KeyValuePair>
+                  </Elements>
+                </Description>
+                <ObjectID isNull="True" />
+                <Parent objectID="165" type="HP.MirrorTesting.Common.TestObject.TestObject, HP.Sprinter.Common">
+                  <Name>Welcome: Mercury Tours</Name>
+                  <ClassType>Browser</ClassType>
+                  <Children objectID="166" type="HP.MirrorTesting.Common.ChildrenCollection, HP.Sprinter.Common">
+                    <Map objectID="167" type="HP.MirrorTesting.Common.ChildrenCollection+SubDictionaryWithParent, HP.Sprinter.Common">
+                      <FireEventsAsync>False</FireEventsAsync>
+                      <Elements isCollection="True">
+                        <KeyValuePair>
+                          <Key>Welcome: Mercury Tours</Key>
+                          <Value cyclicReferenceObjectID="146" />
+                        </KeyValuePair>
+                      </Elements>
+                    </Map>
+                  </Children>
+                  <CheckSum></CheckSum>
+                  <Properties objectID="168">
+                    <Elements isCollection="True" />
+                  </Properties>
+                  <Description objectID="169">
+                    <Elements isCollection="True">
+                      <KeyValuePair>
+                        <Key>title</Key>
+                        <Value objectID="170">
+                          <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_OPTIONAL</Flag>
+                          <CompareType>CT_Default</CompareType>
+                          <PropType>8</PropType>
+                          <Value type="System.String, mscorlib">Welcome: Mercury Tours</Value>
+                        </Value>
+                      </KeyValuePair>
+                      <KeyValuePair>
+                        <Key>testobjname</Key>
+                        <Value objectID="171">
+                          <Flag>PROP_NOT_PERSIST, PROP_READ</Flag>
+                          <CompareType>CT_Default</CompareType>
+                          <PropType>8</PropType>
+                          <Value type="System.String, mscorlib">[ Welcome: Mercury Tours ]</Value>
+                        </Value>
+                      </KeyValuePair>
+                      <KeyValuePair>
+                        <Key>testobjgentype</Key>
+                        <Value objectID="172">
+                          <Flag>PROP_NOT_PERSIST, PROP_READ</Flag>
+                          <CompareType>CT_Default</CompareType>
+                          <PropType>8</PropType>
+                          <Value type="System.String, mscorlib">browser</Value>
+                        </Value>
+                      </KeyValuePair>
+                      <KeyValuePair>
+                        <Key>openurl</Key>
+                        <Value objectID="173">
+                          <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_OPTIONAL</Flag>
+                          <CompareType>CT_Default</CompareType>
+                          <PropType>8</PropType>
+                          <Value type="System.String, mscorlib">http://newtours.demoaut.com</Value>
+                        </Value>
+                      </KeyValuePair>
+                      <KeyValuePair>
+                        <Key>opentitle</Key>
+                        <Value objectID="174">
+                          <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_OPTIONAL</Flag>
+                          <CompareType>CT_Default</CompareType>
+                          <PropType>8</PropType>
+                          <Value type="System.String, mscorlib">Welcome: Mercury Tours</Value>
+                        </Value>
+                      </KeyValuePair>
+                      <KeyValuePair>
+                        <Key>openedbytestingtool</Key>
+                        <Value objectID="175">
+                          <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_OPTIONAL</Flag>
+                          <CompareType>CT_Default</CompareType>
+                          <PropType>11</PropType>
+                          <Value type="System.Boolean, mscorlib">False</Value>
+                        </Value>
+                      </KeyValuePair>
+                      <KeyValuePair>
+                        <Key>number of tabs</Key>
+                        <Value objectID="176">
+                          <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_OPTIONAL</Flag>
+                          <CompareType>CT_Default</CompareType>
+                          <PropType>3</PropType>
+                          <Value type="System.Int32, mscorlib">1</Value>
+                        </Value>
+                      </KeyValuePair>
+                      <KeyValuePair>
+                        <Key>name</Key>
+                        <Value objectID="177">
+                          <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_OPTIONAL</Flag>
+                          <CompareType>CT_Default</CompareType>
+                          <PropType>8</PropType>
+                          <Value type="System.String, mscorlib">Welcome: Mercury Tours</Value>
+                        </Value>
+                      </KeyValuePair>
+                      <KeyValuePair>
+                        <Key>micclass</Key>
+                        <Value objectID="178">
+                          <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_ATTRIBUTE</Flag>
+                          <CompareType>CT_Default</CompareType>
+                          <PropType>8</PropType>
+                          <Value type="System.String, mscorlib">Browser</Value>
+                        </Value>
+                      </KeyValuePair>
+                      <KeyValuePair>
+                        <Key>hastoolbar</Key>
+                        <Value objectID="179">
+                          <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_OPTIONAL</Flag>
+                          <CompareType>CT_Default</CompareType>
+                          <PropType>11</PropType>
+                          <Value type="System.Boolean, mscorlib">True</Value>
+                        </Value>
+                      </KeyValuePair>
+                      <KeyValuePair>
+                        <Key>hasstatusbar</Key>
+                        <Value objectID="180">
+                          <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_OPTIONAL</Flag>
+                          <CompareType>CT_Default</CompareType>
+                          <PropType>11</PropType>
+                          <Value type="System.Boolean, mscorlib">True</Value>
+                        </Value>
+                      </KeyValuePair>
+                      <KeyValuePair>
+                        <Key>hasmenubar</Key>
+                        <Value objectID="181">
+                          <Flag>PROP_READWRITE, PROP_RUNTIME, PROP_OPTIONAL</Flag>
+                          <CompareType>CT_Default</CompareType>
+                          <PropType>11</PropType>
+                          <Value type="System.Boolean, mscorlib">True</Value>
+                        </Value>
+                      </KeyValuePair>
+                      <KeyValuePair>
+                        <Key>creationtime</Key>
+                        <Value objectID="182">
+                          <Flag>PROP_READWRITE, PROP_EDITABLE, PROP_SELECTOR</Flag>
+                          <CompareType>CT_Default</CompareType>
+                          <PropType>3</PropType>
+                          <Value type="System.Int32, mscorlib">1</Value>
+                        </Value>
+                      </KeyValuePair>
+                      <KeyValuePair>
+                        <Key>class name</Key>
+                        <Value objectID="183">
+                          <Flag>PROP_NOT_PERSIST, PROP_READ</Flag>
+                          <CompareType>CT_Default</CompareType>
+                          <PropType>8</PropType>
+                          <Value type="System.String, mscorlib">Browser</Value>
+                        </Value>
+                      </KeyValuePair>
+                      <KeyValuePair>
+                        <Key>browserindex</Key>
+                        <Value objectID="184">
+                          <Flag>PROP_NOT_COMPARE</Flag>
+                          <CompareType>CT_Default</CompareType>
+                          <PropType>2</PropType>
+                          <Value type="System.Int16, mscorlib">1</Value>
+                        </Value>
+                      </KeyValuePair>
+                    </Elements>
+                  </Description>
+                  <ObjectID isNull="True" />
+                  <Parent isNull="True" />
+                </Parent>
+              </Parent>
+            </StepTestObject>
+            <Method>Click</Method>
+            <Delay>215.8286</Delay>
+            <Arguments objectID="185">
+              <Elements isCollection="True">
+                <Int32 type="System.Int32, mscorlib">36</Int32>
+                <Int32 type="System.Int32, mscorlib">9</Int32>
+              </Elements>
+            </Arguments>
+            <Description>Click the "Sign-In" image.</Description>
+          </Step>
+        </Elements>
+      </Steps>
+    </MacroDefinition>
+  </Elements>
+</MacrosDefinition>

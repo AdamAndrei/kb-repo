@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataSourceDefinitionCollection objectID="0">
+  <FireEventsAsync>True</FireEventsAsync>
+  <Elements isCollection="True">
+    <DataSourceDefinition objectID="1">
+      <Name>Traveller Details</Name>
+      <IsFromQC>True</IsFromQC>
+      <QCResourceID>1069</QCResourceID>
+      <LogicalLocation>Resources\Sprinter Data Sets\Traveller Details</LogicalLocation>
+      <Location>C:\Documents and Settings\Administrator\Local Settings\Temp\Sprinter\Book a flight DS.xls</Location>
+      <FileLastWriteTime>2012-08-15T00:00:00</FileLastWriteTime>
+      <HeadersCollection objectID="2">
+        <Elements isCollection="True">
+          <HeaderInfo objectID="3">
+            <Name>:TOName:passFirst01</Name>
+            <Order>1</Order>
+            <Enable>True</Enable>
+          </HeaderInfo>
+          <HeaderInfo objectID="4">
+            <Name>Last Name:</Name>
+            <Order>2</Order>
+            <Enable>True</Enable>
+          </HeaderInfo>
+          <HeaderInfo objectID="5">
+            <Name>Meal:</Name>
+            <Order>3</Order>
+            <Enable>True</Enable>
+          </HeaderInfo>
+          <HeaderInfo objectID="6">
+            <Name>Card Type:</Name>
+            <Order>4</Order>
+            <Enable>True</Enable>
+          </HeaderInfo>
+          <HeaderInfo objectID="7">
+            <Name>Number:</Name>
+            <Order>5</Order>
+            <Enable>True</Enable>
+          </HeaderInfo>
+          <HeaderInfo objectID="8">
+            <Name>:TOName:cc_frst_name1</Name>
+            <Order>6</Order>
+            <Enable>True</Enable>
+          </HeaderInfo>
+          <HeaderInfo objectID="9">
+            <Name>Middle:</Name>
+            <Order>7</Order>
+            <Enable>True</Enable>
+          </HeaderInfo>
+          <HeaderInfo objectID="10">
+            <Name>Last:</Name>
+            <Order>8</Order>
+            <Enable>True</Enable>
+          </HeaderInfo>
+        </Elements>
+      </HeadersCollection>
+    </DataSourceDefinition>
+    <DataSourceDefinition objectID="11">
+      <Name>Traveller Details1</Name>
+      <IsFromQC>True</IsFromQC>
+      <QCResourceID>1069</QCResourceID>
+      <LogicalLocation>Resources\Sprinter Data Sets\Traveller Details</LogicalLocation>
+      <Location>C:\Users\aornatovskyy\AppData\Local\Temp\Sprinter\Book a flight DS.xls</Location>
+      <FileLastWriteTime>2012-08-15T00:00:00</FileLastWriteTime>
+      <HeadersCollection objectID="12">
+        <Elements isCollection="True">
+          <HeaderInfo objectID="13">
+            <Name>:TOName:passFirst01</Name>
+            <Order>1</Order>
+            <Enable>True</Enable>
+          </HeaderInfo>
+          <HeaderInfo objectID="14">
+            <Name>Last Name:</Name>
+            <Order>2</Order>
+            <Enable>True</Enable>
+          </HeaderInfo>
+          <HeaderInfo objectID="15">
+            <Name>Meal:</Name>
+            <Order>3</Order>
+            <Enable>True</Enable>
+          </HeaderInfo>
+          <HeaderInfo objectID="16">
+            <Name>Card Type:</Name>
+            <Order>4</Order>
+            <Enable>True</Enable>
+          </HeaderInfo>
+          <HeaderInfo objectID="17">
+            <Name>Number:</Name>
+            <Order>5</Order>
+            <Enable>True</Enable>
+          </HeaderInfo>
+          <HeaderInfo objectID="18">
+            <Name>:TOName:cc_frst_name1</Name>
+            <Order>6</Order>
+            <Enable>True</Enable>
+          </HeaderInfo>
+          <HeaderInfo objectID="19">
+            <Name>Middle:</Name>
+            <Order>7</Order>
+            <Enable>True</Enable>
+          </HeaderInfo>
+          <HeaderInfo objectID="20">
+            <Name>Last:</Name>
+            <Order>8</Order>
+            <Enable>True</Enable>
+          </HeaderInfo>
+        </Elements>
+      </HeadersCollection>
+    </DataSourceDefinition>
+  </Elements>
+</DataSourceDefinitionCollection>

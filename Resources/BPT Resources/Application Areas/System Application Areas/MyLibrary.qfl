@@ -1,0 +1,79 @@
+﻿' Function to return the Fibonacci number at index n
+Function GetFibonacci(n)
+	Dim a, b, i, temp
+	a = 0
+	b = 1
+
+	If n = 0 Then
+		GetFibonacci = a
+		Exit Function
+	ElseIf n = 1 Then
+		GetFibonacci = b
+		Exit Function
+	End If
+
+	For i = 2 To n
+		temp = a + b
+		a = b
+		b = temp
+	Next
+	GetFibonacci = b
+End Function
+
+
+
+'Check if a number is prime
+Function IsPrime(n)
+	Dim sq
+	IsPrime = True
+	sq = Int(Sqr(n))
+	For i = 2 To sq Step 1
+		If n Mod i = 0 Then
+			IsPrime = False
+			Exit For
+		End If
+	Next
+End Function
+
+
+'Print in a file if the number n is prime, then the nth Fibonacci number
+Sub BasicPrintInFile(n, fileObj)
+	Dim prime, fib, line1, line2, notInLine
+	prime = IsPrime(n)
+	fib = GetFibonacci(n)
+	notInLine = ""
+	If Not prime Then
+		notInline = " not"
+	End If
+	line1 = "The number " & CStr(n) & " is" & notInLine & " prime"
+	line2 = "The " & CStr(n) & "-th Fibonacci number is: " & CStr(fib) & "."
+	
+	fileObj.WriteLine line1
+	fileObj.WriteLine line2
+	fileObj.WriteLine "=============================================="
+	fileObj.WriteLine ""
+End Sub
+
+Sub PrintInFile(n, fileObj)
+	For i = 2 To n Step 1
+		BasicPrintInFile CInt(i), fileObj
+	Next
+End Sub
+
+
+Sub OpenFileInNotepad(shellObj, filePath)
+	shellObj.Run "notepad.exe """ & filePath & """"
+End Sub
+
+Function GetNumberOfLines(fsObj, filePath)
+	Dim file, line, lineCount
+	Set file = fsObj.OpenTextFile(filePath, 1)
+	
+	Do Until file.AtEndOfStream
+		line = file.ReadLine
+		lineCount = lineCount + 1
+	Loop
+	
+	file.Close
+	GetNumberOfLines = lineCount
+End Function

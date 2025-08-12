@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Favorites objectID="0">
+  <FireEventsAsync>True</FireEventsAsync>
+  <Elements isCollection="True">
+    <Favorite objectID="1">
+      <Name>Book a flight test</Name>
+      <Collection objectID="2">
+        <Elements isCollection="True">
+          <TestLocation objectID="3">
+            <TestName>Flight Reservation</TestName>
+            <TestSourceType>QcTest</TestSourceType>
+            <Path>Root\Mercury Tours Web Site\Functionality And UI\Mercury Tours Sanity</Path>
+            <TestSetID type="System.Int32, mscorlib">91</TestSetID>
+            <TestInstanceID type="System.Int32, mscorlib">215</TestInstanceID>
+          </TestLocation>
+        </Elements>
+      </Collection>
+      <QcConnectionSettings objectID="4">
+        <Credentials objectID="5" type="HP.MirrorTesting.BL.Data.TestDefinitionData.RunDefinition.Host.CredentialsDefinition, HP.Sprinter.BL.Data">
+          <EncryptedPassword>0SWoxfcgI8AwDTlJKrk8aA==</EncryptedPassword>
+          <Username>alex_alm</Username>
+          <FullUsername isNull="True" />
+          <UserDomain></UserDomain>
+        </Credentials>
+        <Domain>DO_NOT_TOUCH</Domain>
+        <Project>ALM_Demo</Project>
+        <ServerAddress>http://labm1qc05:8080/qcbin</ServerAddress>
+        <ReconnectOnStartup>False</ReconnectOnStartup>
+        <CloseWhenConnected>True</CloseWhenConnected>
+        <AttemptingToConnect>False</AttemptingToConnect>
+        <ServerHistory objectID="6">
+          <Elements isCollection="True">
+            <String>http://labm1qc05:8080/qcbin</String>
+          </Elements>
+        </ServerHistory>
+      </QcConnectionSettings>
+      <TestSourceType>QcTest</TestSourceType>
+      <IsRunSpecific>False</IsRunSpecific>
+    </Favorite>
+  </Elements>
+</Favorites>
