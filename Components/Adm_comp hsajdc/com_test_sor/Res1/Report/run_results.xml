@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Step">
+<Data>
+    <Name>Add-in(s) not activated</Name>
+    <Description>The following add-in(s) were associated with your test, but are not currently loaded: 
+WinForms, WPF.</Description>
+    <StartTime>2025-08-12 11:36:55</StartTime>
+    <Result>Warning</Result>
+    <Extension>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<ReportNode type="User">
+<Data>
+    <Name>Test directory</Name>
+    <Description>C:\MBT-REPOS\kb-repo\Components\Adm_comp hsajdc\com_test_sor</Description>
+    <StartTime>2025-08-12 11:36:56</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>6a868f310e0244e29bda8d3f7f536b0b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>FOUND OBJECT REPOSITORY:</Name>
+    <Description>Repository 1: ..\..\..\Resources\BPT Resources\Object Repositories\Default.tsr</Description>
+    <StartTime>2025-08-12 11:36:56</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>6a868f310e0244e29bda8d3f7f536b0b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>FOUND OBJECT REPOSITORY:</Name>
+    <Description>Repository 2: ..\..\..\Resources\SharedObjs\repoForDemo.tsr</Description>
+    <StartTime>2025-08-12 11:36:56</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>6a868f310e0244e29bda8d3f7f536b0b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2025-08-12 11:36:58</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>62c574b425304c43a0789eb2e7394d5a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>com_test_sor</Name>
+    <Description />
+    <StartTime>2025-08-12 11:36:56</StartTime>
+    <Duration>2</Duration>
+    <Result>Passed</Result>
+    <InputParameters>
+      <Parameter name="username" value="admin" type="System.String" />
+      <Parameter name="password" value="demo" type="System.String" />
+      <Parameter name="usernameField" value="username" type="System.String" />
+      <Parameter name="passwordField" value="password" type="System.String" />
+      <Parameter name="signInButton" value="signIn" type="System.String" />
+      <Parameter name="loginButton" value="login" type="System.String" />
+      <Parameter name="dashboardButton" value="dashboardBtn" type="System.String" />
+    </InputParameters>
+    <Extension>
+      <IconKey>913bcb489ac34010aa6fe01820bcaf7c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2025-08-12 11:36:58</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>81c7809632d24a2ca0c40a345858bc7a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>com_test_sor</Name>
+    <ToolName>OpenText Functional Testing</ToolName>
+    <ToolVersion>25.2</ToolVersion>
+    <ToolVersionStringLiteral>25.2</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2025-08-12 11:36:54</StartTime>
+    <Duration>4</Duration>
+    <Result>Warning</Result>
+    <InputParameters>
+      <Parameter name="username" value="admin" type="System.String" />
+      <Parameter name="password" value="demo" type="System.String" />
+      <Parameter name="usernameField" value="username" type="System.String" />
+      <Parameter name="passwordField" value="password" type="System.String" />
+      <Parameter name="signInButton" value="signIn" type="System.String" />
+      <Parameter name="loginButton" value="login" type="System.String" />
+      <Parameter name="dashboardButton" value="dashboardBtn" type="System.String" />
+    </InputParameters>
+    <Extension>
+      <IconKey>21b1896636b54ff09eba097ba7f5b34c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+03:00:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>OPENTEXT\aadam2</User>
+      <CpuInfo>Intel(R) Core(TM) Ultra 7 165H</CpuInfo>
+      <NumberOfCores>22</NumberOfCores>
+      <TotalMemory>64981</TotalMemory>
+      <HostName>\OTX-2VMBG54</HostName>
+      <OSInfo>Windows 11 24H2 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res1</ResultName>
+    <RunStartTime>2025-08-12 11:36:54</RunStartTime>
+    <Timezone>+03:00:00</Timezone>
+    <OrchestrationToolName>OpenText Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>25.2</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>25.2</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>
