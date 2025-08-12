@@ -1,1 +1,1 @@
-﻿var __testDataSource={items:[{dataFilePath:'Default.xlsx',dataFileFormat:'excel',dataFileFolder:'C:\\MBT-REPOS\\kb-repo\\Components\\Adm_comp hsajdc\\com_test_sor\\Res1',namePairs:[]}]};
+﻿var __testDataSource={items:[{dataFilePath:'Default.xlsx',dataFileFormat:'excel',dataFileFolder:'C:\\dev\\alm-to-octane-migration-tool\\bpt-export\\DEFAULT_demo\\Components\\Adm_comp hsajdc\\com_test_sor\\Res1',namePairs:[]}]};
